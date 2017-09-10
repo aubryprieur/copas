@@ -1,0 +1,9 @@
+<% data.teams.each do |team| %>
+<div class="col-xs-12 col-sm-offset-1 col-sm-2">
+  <div>
+    <img src="<%= team.picture %>" alt="<%= team.first_name %> <%= team.last_name %>" class="avatar">
+    <h3><%= team.first_name.capitalize %> <%= team.last_name.upcase %></h3>
+    <p>Consultant associé et gérant</p>
+  </div>
+</div>
+<% end %>
