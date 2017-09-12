@@ -1,11 +1,11 @@
 <div class="team text-center">
-  <div>
+  <div class="content">
     <h2>NOTRE ÉQUIPE</h2>
-    <p>Le conseil coopératif repose sur une équipe polyvalente de consultants qui ont en commun d'être associés et porteurs de l'aventure de la SCOP</p>
-    <p>Nous sommes implantés en métropole lilloise et en Ile de France et nous intervenons sur tout le territoire et à l'étranger.</p>
+    <p>Le conseil coopératif repose sur une <strong>équipe polyvalente</strong> de consultants qui ont en commun d'être associés et porteurs de l'aventure de la SCOP</p>
+    <p>Nous sommes implantés en métropole lilloise et en Ile de France et <strong>nous intervenons sur tout le territoire et à l'étranger</strong>.</p>
   </div>
   <div class="cards">
-  <div class="col-lg-offset-1">
+  <div >
     <% data.teams.each do |team| %>
     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 team-card">
       <img src="<%= team.picture %>" alt="<%= team.first_name.capitalize %> <%= team.last_name.upcase %>" class="avatar">

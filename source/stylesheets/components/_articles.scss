@@ -1,8 +1,8 @@
-.team {
-  text-align: center;
+.articles {
+  // background: white;
+    text-align: center;
   p {
     font-size: 16px;
-    color: #777777;
     font-weight: lighter;
   }
   h2 {
@@ -17,7 +17,11 @@
   }
 }
 
+.card-description {
+  color: white;
+}
 
-
-
-
+.btn {
+  border-radius: 10px;
+  background-color: #ffcf00;
+}
