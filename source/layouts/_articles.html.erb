@@ -1,0 +1,24 @@
+<!-- article -->
+<div class="articles text-center">
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 article-content">
+      <h2>NOS ARTICLES</h2>
+      <p>Suivez notre actualité, nos interventions, nos actions de terrain, nos analyses et réflexions.</p>
+    </div>
+      <% data.articles.each do |article| %>
+        <div class="col-xs-12 col-sm-4">
+          <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url('<%= article.picture %>');">
+            <div class="card-description">
+              <p class="card-category"><strong><%= article.category.upcase %></strong> </p>
+              <h3><%= article.title.capitalize %></h3>
+              <p><%= article.description.capitalize %></p>
+              <a href="<%= article.link %>" target="_blank" class="btn">lire l'article</a>
+            </div>
+          </div>
+        </div>
+      <% end %>
+  </div>
+  </div>
+</div>
+

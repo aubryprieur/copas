@@ -1,0 +1,19 @@
+<div class="container">
+  <div>
+    <h2>NOS MÉTIERS</h2>
+    <p>Le conseil coopératif se décline au pluriel : étudier, comprendre, analyser, accompagner, concerter, faire participer, évaluer, se projeter, etc. autant de compétences nécessaires pour soutenir le changement </p>
+  </div>
+  <div class="row">
+    <% data.business.each do |bus| %>
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+        <div class="business-card" style="background-image: url('<%= bus.picture %>');">
+          <div class="card-content">
+            <div class="title"><p><%= bus.title.upcase %></p></div>
+            <div class="description"><p><%= bus.description.capitalize %></p></div>
+            <div class="citation"><p>"<%= bus.citation.capitalize %>"</p></div>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>

@@ -1,0 +1,50 @@
+.business-card {
+  width: 360px;
+  height: 360px;
+  color: white;
+  margin-bottom: 15px;
+  position: relative;
+  p {
+    font-size: 14px;
+    font-weight: lighter;
+  }
+  .citation {
+    position: absolute;
+    bottom: 0;
+    margin-left: 10px;
+    margin-right: 5px;
+    p {
+      font-size: 10px;
+      font-style: italic;
+    }
+  }
+  .title {
+    margin-left: 10px;
+    margin-right: 5px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .description {
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+}
+
+.card-content {
+  position: absolute;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 360px;
+  width: 180px;
+  margin: 0 auto;
+}
+
+.container > p {
+    font-size: 16px;
+    font-weight: lighter;
+}
+.container > h2 {
+    font-size: 32px;
+  }
+
+
