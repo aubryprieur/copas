@@ -1,0 +1,62 @@
+.footer {
+  background-color: #000000;
+  color: white;
+  font-size: 13px;
+  padding: 50px 0 60px 0;
+  p {
+    font-weight: lighter;
+  }
+  a {
+    text-decoration: none;
+    color: #ffcf00;
+  }
+  h4 {
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .bigger-line-height {
+    line-height: 1.8;
+  }
+}
+
+.icoLinkedin, .icoTwitter  {
+  font-size: 25px;
+  color: white !important;
+  background: #ffcf00;
+  border-radius: 50%;
+  padding: 10px 10px;
+}
+
+.icoFacebook {
+  font-size: 25px;
+  color: white !important;
+  background: #ffcf00;
+  border-radius: 50%;
+  padding: 10px 10px;
+}
+
+.icoLinkedin:hover {
+  background: #2a6496;
+}
+
+.icoTwitter:hover {
+  background: #33ccff;
+}
+
+.icoFacebook:hover {
+  background: #3B5998;
+}
+
+.fa-twitter, .fa-linkedin {
+  padding: 10px 5px;
+}
+.fa-facebook {
+  padding: 10px 10px;
+}
+
+.fa-twitter:hover, .fa-linkedin:hover, .fa-facebook:hover {
+    transition: 0.5s;
+    transform: rotateX(360deg);
+}
+
+
