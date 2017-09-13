@@ -1,4 +1,4 @@
-.business-card {
+.grounds-card {
   width: 360px;
   height: 360px;
   color: white;
@@ -7,16 +7,6 @@
   p {
     font-size: 14px;
     font-weight: lighter;
-  }
-  .citation {
-    position: absolute;
-    bottom: 0;
-    margin-left: 10px;
-    margin-right: 5px;
-    p {
-      font-size: 10px;
-      font-style: italic;
-    }
   }
   .title {
     margin-left: 10px;
@@ -40,7 +30,7 @@
   padding-top: 10px;
 }
 
-.business-content {
+.grounds-content {
   p {
     font-size: 16px;
     font-weight: lighter;
@@ -55,10 +45,7 @@
   }
 }
 
-.business {
+.grounds {
+  background-color: white;
   padding: 50px 0 60px 0;
 }
-
-
-
-

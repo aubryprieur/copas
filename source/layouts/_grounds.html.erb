@@ -1,0 +1,20 @@
+<div class="grounds">
+  <div class="container">
+    <div class="grounds-content text-center">
+      <h2>NOS TERRAINS</h2>
+      <p>Le conseil coopératif se joue partout où il est question de conjuguer sens, cohésion et efficacité, que ce soit dans le public ou le privé, au sein des conseils d'administration, dans les services ou sur l'espace public...</p>
+    </div>
+    <div class="row">
+      <% data.grounds.each do |ground| %>
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+        <div class="grounds-card" style="background-image: url('<%= ground.picture %>');">
+          <div class="card-content">
+            <div class="title"><p><%= ground.title.upcase %></p></div>
+            <div class="description"><p><%= ground.description.capitalize %></p></div>
+          </div>
+        </div>
+      </div>
+      <% end %>
+    </div>
+  </div>
+</div>
