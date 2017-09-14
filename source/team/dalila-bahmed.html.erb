@@ -9,7 +9,7 @@ title: COPAS - Aubry Prieur
         <% data.users.each do |user| %>
         <li>
           <% link_to "https://kitt.lewagon.com/alumni/#{user.github_nickname}", target: "_blank" do %>
-          <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{user.github_nickname}", class: "img-circle" %>
+          <%= image_tag "../images/team/DalilaBahmed.png", class: "img-circle" %>
           <% end %>
           <h2><%= user.name %></h2>
           <p>
@@ -34,6 +34,6 @@ title: COPAS - Aubry Prieur
     </div>
   </div>
   <div class="references">
-    <%= partial "layouts/cv-card", :locals => { name: data.cvcards.aubryprieur} %>
+    <%= partial "layouts/cv-card", :locals => { name: data.cvcards.dalilabahmed} %>
   </div>
 </div>

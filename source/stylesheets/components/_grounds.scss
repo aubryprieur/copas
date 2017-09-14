@@ -4,6 +4,7 @@
   color: white;
   margin-bottom: 15px;
   position: relative;
+  border-radius: 10px;
   p {
     font-size: 14px;
     font-weight: lighter;
@@ -28,6 +29,7 @@
   width: 180px;
   margin: 0 auto;
   padding-top: 10px;
+  border-radius: 0 10px 10px 0;
 }
 
 .grounds-content {
@@ -61,6 +63,7 @@
   opacity: 0;
   transition: .3s ease;
   background-color: #FFCF00;
+  border-radius: 10px;
 }
 
 .grounds-card:hover .overlay {
