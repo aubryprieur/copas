@@ -1,0 +1,20 @@
+<div class=" container cv-card">
+<h2 class="text-center">QUELQUES RÉFÉRENCES</h2>
+<div class="row">
+<% data.cvcards.each do |card| %>
+<!--   <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center"> -->
+  <!-- <i class="fa fa-check-square-o fa-2x"></i> -->
+<!--     <img src="<%= card.picture %>">
+    <h5><%= card.title %></h5>
+    <p><%= card.description %></p> -->
+<div class="product col-xs-12 col-sm-6 col-md-4 ">
+  <img src="<%= card.picture %>" alt="<%= card.title %>" class="product-image hidden-xs">
+  <div class='product-body'>
+    <h3><%= card.title %></h3>
+    <p><%= card.description %></p>
+  </div>
+</div>
+<!--   </div> -->
+<% end %>
+</div>
+</div>

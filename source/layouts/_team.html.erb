@@ -9,7 +9,7 @@
       <div class="row">
         <div>
           <% data.teams.first(3).each do |team| %>
-          <a href="#">
+          <a href="<%= team.link %>">
             <div class="col-xs-12 col-sm-6 col-md-4 team-card">
               <img src="<%= team.picture %>" alt="<%= team.first_name.capitalize %> <%= team.last_name.upcase %>" class="avatar">
               <h3><%= team.first_name.capitalize %> <%= team.last_name.upcase %></h3>
