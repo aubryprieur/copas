@@ -1,39 +1,29 @@
 ---
-title: COPAS - Aubry Prieur
+title: COPAS - Gilles Rivet
 ---
 <%= partial "layouts/navbar2" %>
 <div>
   <div id="cv">
     <div class="about-content">
       <ul class="list-inline">
-        <% data.users.each do |user| %>
         <li>
-          <% link_to "https://kitt.lewagon.com/alumni/#{user.github_nickname}", target: "_blank" do %>
-          <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{user.github_nickname}", class: "img-circle" %>
-          <% end %>
-          <h2><%= user.name %></h2>
-          <p>
-            <% link_to "https://github.com/#{user.github_nickname}", target: "_blank" do %>
-            <i class="fa fa-github"></i> <%= user.github_nickname %>
-            <% end %>
-          </p>
-          <p><a href="mailto:aubry.prieur@copas.coop"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;aubry.prieur@copas.coop</a></p>
-          <p><i class="fa fa-phone"></i>03 61 50 71 34 </p>
+          <%= image_tag "../images/team/GillesRivet.png", class: "img-circle" %>
+          <h2><%= data.teams[3].first_name %> <%= data.teams[3].last_name %></h2>
+          <p><a href="mailto:<%= data.teams[3].email %>"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;<%= data.teams[3].email %></a></p>
+          <p><i class="fa fa-phone"></i><%= data.teams[3].phone%> </p>
         </li>
-        <% end %>
       </ul>
       <div class="row">
         <div class="col-md-offset-3 col-md-6 cv-description">
-          <p>Diplômé d’un Master 2 "Economie de la décision publique" (Lille 1) et d'un Master 2 "Management et administration d’entreprise" (IAE Lille) et formé au développement Web par Le Wagon. </p>
-          <p><strong>Responsable de la vie de la coopérative</strong> (gestion, humaine et administrative), il est également <strong>chargé des études</strong> (<strong>diagnostics, profils statistiques de territoire, étude quatitative et qualitative de projets ou de politiques/programmes/dispositifs...)</strong>.</p>
-          <p>Il réalise des formations en gestion du fait religieux en entreprise, accompagne les entreprises de l'ESS dans leurs bonnes pratiques et participe aux <strong>consultations des bénéficiaires, des usagers, des salariés ou encore des porteurs de projet</strong> en développant des outils d’enquête (questionnaires on line, cahiers de contribution digitaux, plateformes de contributions ou participatives, etc.) et assure le traitement des études. </p>
-          <p>Attiré par les nouvelles technologies et l’innovation sociale, il développe également des projets Web.
-          </p>
+          <p>Spécialiste de l’économie sociale, Gilles Rivet est <strong>consultant senior</strong> à COPAS depuis 1998. Après avoir été chargé de mission à Frères des hommes, dans le domaine de la solidarité internationale, il a développé ses activités dans les quartiers d’habitat social, au sein du Comité national de liaison des Régies de quartier (CNLRQ), tête de réseau de l’IAE, puis de la Fondation de France. </p>
+          <p>À COPAS, il intervient dans les champs de la <strong>santé</strong> (diagnostics locaux santé publique, toxicomanie), du <strong>médico-social</strong> (personnes âgées, handicap), de l’<strong>insertion</strong> (personnes à la rue, accès au logement, IAE), de la <strong>protection de l’enfance</strong> (établissements, milieu ouvert), de l’<strong>action sociale territoriale</strong> (politique de la ville, démarches de territorialisation de l’action sociale). </p>
+          <p>Ses interventions se réalisent sous diverses formes, que ce soit l’<strong>appui aux politiques sociales</strong>, nationale ou territoriale (accompagnement d'expérimentations ; aide à l’élaboration de schémas départementaux…), l’<strong>évaluation de ces politiques sociales</strong> (politique de la ville ; protection de l’enfance, toxicomanie, accès au logement, etc.), l’<strong>appui aux associations mandatées</strong> (projets associatifs, projets d’établissements…), la <strong>formation des professionnels de terrain</strong> (nombreuses formations auprès d’équipes et animation de Groupes d’analyse de la pratique…). </p>
+          <p>Après avoir été maître de conférence associé à Paris 3 “Sorbonne Nouvelle” (responsable du M2 “Consultant/accompagnateur de projet par la recherche-action” de 2007 à 2009), Gilles Rivet est depuis 2010 maître de conférence associé à l’université Paris-Est Créteil-UPEC (méthodologie de la recherche – politiques sociales – ingénierie sociale).</p>
         </div>
       </div>
     </div>
   </div>
   <div class="references">
-    <%= partial "layouts/cv-card" %>
+    <%= partial "layouts/cv-card", :locals => { name: data.cvcards.gillesrivet} %>
   </div>
 </div>
