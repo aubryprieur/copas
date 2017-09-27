@@ -1,0 +1,39 @@
+---
+title: COPAS - Aubry Prieur
+---
+<%= partial "layouts/navbar2" %>
+<div>
+  <div id="cv">
+    <div class="about-content">
+      <ul class="list-inline">
+        <% data.users.each do |user| %>
+        <li>
+          <% link_to "https://kitt.lewagon.com/alumni/#{user.github_nickname}", target: "_blank" do %>
+          <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{user.github_nickname}", class: "img-circle" %>
+          <% end %>
+          <h2><%= user.name %></h2>
+          <p>
+            <% link_to "https://github.com/#{user.github_nickname}", target: "_blank" do %>
+            <i class="fa fa-github"></i> <%= user.github_nickname %>
+            <% end %>
+          </p>
+          <p><a href="mailto:aubry.prieur@copas.coop"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;aubry.prieur@copas.coop</a></p>
+          <p><i class="fa fa-phone"></i>03 61 50 71 34 </p>
+        </li>
+        <% end %>
+      </ul>
+      <div class="row">
+        <div class="col-md-offset-3 col-md-6 cv-description">
+          <p>Diplômé d’un Master 2 "Economie de la décision publique" (Lille 1) et d'un Master 2 "Management et administration d’entreprise" (IAE Lille) et formé au développement Web par Le Wagon. </p>
+          <p><strong>Responsable de la vie de la coopérative</strong> (gestion, humaine et administrative), il est également <strong>chargé des études</strong> (<strong>diagnostics, profils statistiques de territoire, étude quatitative et qualitative de projets ou de politiques/programmes/dispositifs...)</strong>.</p>
+          <p>Il réalise des formations en gestion du fait religieux en entreprise, accompagne les entreprises de l'ESS dans leurs bonnes pratiques et participe aux <strong>consultations des bénéficiaires, des usagers, des salariés ou encore des porteurs de projet</strong> en développant des outils d’enquête (questionnaires on line, cahiers de contribution digitaux, plateformes de contributions ou participatives, etc.) et assure le traitement des études. </p>
+          <p>Attiré par les nouvelles technologies et l’innovation sociale, il développe également des projets Web.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="references">
+    <%= partial "layouts/cv-card", :locals => { name: data.cvcards.aubryprieur} %>
+  </div>
+</div>

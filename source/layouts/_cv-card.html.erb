@@ -1,0 +1,14 @@
+<div class=" container cv-card">
+<h2 class="text-center">QUELQUES RÉFÉRENCES</h2>
+<div class="row">
+<% name.each do |card| %>
+  <div class="product col-xs-12 col-sm-6 col-md-4 ">
+  <img src="<%= card.picture %>" alt="<%= card.title %>" class="product-image hidden-xs">
+  <div class='product-body'>
+    <h3><%= card.title %></h3>
+    <p><%= card.description %></p>
+  </div>
+</div>
+<% end %>
+</div>
+</div>
