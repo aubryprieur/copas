@@ -1,39 +1,33 @@
 ---
-title: COPAS - Aubry Prieur
+title: COPAS - Samuel Thyrion
 ---
 <%= partial "layouts/navbar2" %>
 <div>
   <div id="cv">
     <div class="about-content">
       <ul class="list-inline">
-        <% data.users.each do |user| %>
         <li>
-          <% link_to "https://kitt.lewagon.com/alumni/#{user.github_nickname}", target: "_blank" do %>
-          <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{user.github_nickname}", class: "img-circle" %>
-          <% end %>
-          <h2><%= user.name %></h2>
-          <p>
-            <% link_to "https://github.com/#{user.github_nickname}", target: "_blank" do %>
-            <i class="fa fa-github"></i> <%= user.github_nickname %>
-            <% end %>
-          </p>
-          <p><a href="mailto:aubry.prieur@copas.coop"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;aubry.prieur@copas.coop</a></p>
-          <p><i class="fa fa-phone"></i>03 61 50 71 34 </p>
+          <%= image_tag "../images/team/SamuelThyrion.png", class: "img-circle" %>
+          <h2><%= data.teams[4].first_name %> <%= data.teams[4].last_name %></h2>
+          <p><a href="mailto:<%= data.teams[4].email %>"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;<%= data.teams[4].email %></a></p>
+          <p><i class="fa fa-phone"></i><%= data.teams[4].phone%> </p>
         </li>
-        <% end %>
       </ul>
       <div class="row">
         <div class="col-md-offset-3 col-md-6 cv-description">
-          <p>Diplômé d’un Master 2 "Economie de la décision publique" (Lille 1) et d'un Master 2 "Management et administration d’entreprise" (IAE Lille) et formé au développement Web par Le Wagon. </p>
-          <p><strong>Responsable de la vie de la coopérative</strong> (gestion, humaine et administrative), il est également <strong>chargé des études</strong> (<strong>diagnostics, profils statistiques de territoire, étude quatitative et qualitative de projets ou de politiques/programmes/dispositifs...)</strong>.</p>
-          <p>Il réalise des formations en gestion du fait religieux en entreprise, accompagne les entreprises de l'ESS dans leurs bonnes pratiques et participe aux <strong>consultations des bénéficiaires, des usagers, des salariés ou encore des porteurs de projet</strong> en développant des outils d’enquête (questionnaires on line, cahiers de contribution digitaux, plateformes de contributions ou participatives, etc.) et assure le traitement des études. </p>
-          <p>Attiré par les nouvelles technologies et l’innovation sociale, il développe également des projets Web.
-          </p>
+          <p>Formé à la sociologie et aux sciences politiques (IEP de Rennes et troisième cycle de sociologie), l’expérience professionnelle de Samuel Thyrion trouve sa cohérence dans un engagement continu dans la mise en oeuvre et/ou l’accompagnement des projets d’intérêt général dans les domaines du <strong>développement social, de l’éducation, de la jeunesse, de la formation, etc.</strong></p>
+
+          <p>Précédemment directeur d’un organisme de formation, consultant en communication et concertation publique et chargé de mission dans un centre de ressources politique de la ville, il met son énergie au service du sens, de l’innovation et de l’efficacité des projets et des missions dont il a la responsabilité.</p>
+
+          <p>Polyvalent dans les <strong>modalités d’intervention </strong>(évaluation, étude, diagnostic, formation-action, accompagnement, démarches de concertation ou de contribution collective, etc.) et polyvalent comme tous les consultants copas dans le champ des politiques sociales, Samuel Thyrion a développé une expertise plus approfondie dans les secteurs des <strong>politiques éducatives territoriales</strong> et du <strong>développement social</strong>.</p>
+
+          <p>Il est par ailleurs enseignant vacataire à l’université (Lille I/III, IAE de Lille, Université Littoral Côte d'Opale) et mène et est engagé à titre personnel dans des démarches de participation.</p>
+
         </div>
       </div>
     </div>
   </div>
   <div class="references">
-    <%= partial "layouts/cv-card" %>
+    <%= partial "layouts/cv-card", :locals => { name: data.cvcards.samuelthyrion} %>
   </div>
 </div>
