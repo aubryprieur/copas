@@ -2,9 +2,10 @@
   width: 360px;
   height: 360px;
   color: white;
-  margin-bottom: 15px;
+  margin-bottom: 15px !important;
   position: relative;
   border-radius: 10px;
+  margin: 0 auto;
   p {
     font-size: 14px;
     font-weight: lighter;
