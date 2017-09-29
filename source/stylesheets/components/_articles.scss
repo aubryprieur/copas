@@ -5,13 +5,18 @@
   p {
     font-size: 16px;
     font-weight: lighter;
-    color: #777777;
+    color: white;
+  }
+  .article-description {
+    font-style: italic;
+    font-size: 14px;
   }
   h2 {
-    font-size: 32px;
+    font-size: 30px;
+    font-style: bold;
   }
   h3 {
-    font-size: 18px;
+    font-size: 16px;
   }
   .content p {
     margin-right: 20%;
@@ -30,4 +35,23 @@
   background-color: #ffcf00;
   color: white;
   font-size: 10px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 15px;
+}
+
+.card:hover {
+  box-shadow: 0 12px 24px 0 rgba(0,0,0,0.2);
+}
+
+.article-content {
+  h2 {
+    font-weight: bold;
+  }
+  p {
+    color: #777777
+  }
 }
