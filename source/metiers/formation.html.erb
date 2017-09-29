@@ -1,0 +1,32 @@
+---
+title: COPAS - Formation
+---
+<%= partial "layouts/navbar2" %>
+<div class="ground">
+  <div class="container">
+    <div class="ground-content">
+      <h1>
+        FORMATION
+      </h1>
+      <p>
+        Les consultants de COPAS interviennent régulièrement en tant que formateurs auprès de différents acteurs : professionnels des <strong>associations</strong> du secteur sanitaire et social et de l’éducation populaire, <strong>agents de collectivités territoriales</strong> agissant dans le champ du développement social local. Ces formations visent à la fois <strong>les cadres</strong> en charge de l’élaboration de politiques sociales, de projets associatifs… que <strong>la base opérationnelle</strong> en charge de leur mise en œuvre, en prise avec les publics.
+      </p>
+      <h2>
+        Notre offre
+      </h2>
+      <p>
+        Nous disposons de modules de formations sur différents sujets :
+      </p>
+          <p>Lutte contre les discriminations</p>
+          <p>Gestion du fait religieux et laïcité</p>
+          <p>Politique de la ville</p>
+          <p>Évaluation des politiques publiques</p>
+          <p>Participation des habitants et des usagers</p>
+          <p>Management coopératif</p>
+          <p>...</p>
+    </div>
+  </div>
+  <div class="references">
+    <%= partial "layouts/cv-card", :locals => { name: data.refcards.formation} %>
+  </div>
+</div>
