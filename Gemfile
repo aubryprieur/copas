@@ -9,6 +9,7 @@ gem 'pry-byebug', require: true
 gem 'rake'
 gem 'puma'
 gem 'rack-contrib'
+gem 'middleman-gh-pages'
 
 # Assets
 gem 'font-awesome-middleman'
