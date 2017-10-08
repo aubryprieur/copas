@@ -1,0 +1,28 @@
+---
+title: COPAS - Développement numérique
+---
+<%= partial "layouts/navbar2" %>
+<div class="ground">
+  <div class="container">
+    <div class="ground-content">
+      <h1>
+        DÉVELOPPEMENT DE SOLUTIONS NUMÉRIQUES
+      </h1>
+      <p>
+        Vecteur de <strong>transformations managériales </strong>(développement du télétravail, du travail collaboratif, management participatif), de modification des <strong>formes d’intermédiation </strong>(économie collaborative), de <strong>remobilisation des citoyens quant à la participation au débat démocratique </strong>(plateforme de débat citoyen, de consultation, de budget participatif), le numérique transforme, accélère et modifie toute forme d’organisation avec moins de hiérarchie et plus d’horizontalité.
+      </p>
+      <h2>
+        Notre approche
+      </h2>
+      <p>
+        COPAS accompagne les organisations (privé, publique), les collectifs dans la mise en place de processus coopératif et participatif en lien avec des outils numériques adaptés. <strong>Les outils numériques renforcent la coopération pour atteindre des objectifs communs</strong>.
+      </p>
+      <p>
+        Nous travaillons avec <%= link_to "OSP", "http://www.opensourcepolitics.eu/", target: "_blank" %> pour la mise en place de plateforme open source de consultation et de participation, ainsi que la mise en œuvre de budget participatif. Nous conjuguons <strong>présence sur le terrain</strong> (réunion de présentation, ateliers créatif, animation pour le vote…) et <strong>présence numérique</strong> (plateforme open source assurant la transparence du processus) pour favoriser la compréhension de tous, pour développer et garantir la participation.
+      </p>
+    </div>
+  </div>
+  <div class="references">
+    <%= partial "layouts/cv-card", :locals => { name: data.refcards.numerique} %>
+  </div>
+</div>

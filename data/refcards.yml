@@ -240,3 +240,18 @@ animation:
   title: "Ville de Rennes"
   description: "Animation d’un séminaire d’élus sur le cadre et les enjeux des Projets Educatifs de Territoire"
 
+numerique:
+- picture: "http://www.rivp.fr/wp-content/uploads/2016/06/Logo-RIVP-85-k.jpg"
+  title: "RIVP - Régie Immobilière de la ville de la Paris"
+  description: "Mise en œuvre et accompagnement du budget participatif auprès des locataires"
+- picture: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/PfP_logo_V3.jpg/220px-PfP_logo_V3.jpg"
+  title: "Petits frères des pauvres"
+  description: "Evaluation du dispositif et de la plateforme Voisin-Age"
+- picture: "https://upload.wikimedia.org/wikipedia/fr/thumb/e/e1/Logo_MEL.svg/830px-Logo_MEL.svg.png"
+  title: "MEL"
+  description: "Expérimentation et mise en place d'outil open source de consultation des salariés"
+- picture: "http://www.wellouej.com/blog/wp-content/uploads/2012/09/mazingarbe.jpg"
+  title: "Ville de Mazingarbe"
+  description: "Accompagnement d’un repair café"
+
+
