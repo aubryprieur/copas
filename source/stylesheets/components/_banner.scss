@@ -8,7 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 25% 20% 20% 20%;
+  // padding: 25% 20% 20% 20%;
   h1 {
     font-size: 3em;
     font-weight: bold;
@@ -35,3 +35,18 @@
         }
       }
     }
+
+
+@media (max-width: 414px) {
+      .banner {
+        h1 {
+          vertical-align: middle;
+          font-size: 3em;
+
+        }
+          .banner-introduction {
+              visibility: hidden;
+          }
+      }
+    }
+
