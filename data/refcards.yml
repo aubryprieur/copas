@@ -54,6 +54,9 @@ participation:
   description: "Évaluation du dispositif Voisin-Age (communauté web qui met en relation des personnes âgées et leurs voisins) "
 
 ville:
+- picture: "http://www.demat-marchespublics.org/249-thickbox_default/peinture-de-fenetres-neuves-a-la-prefecture-de-la-seine-maritime-a-rouen.jpg"
+  title: "Ville de Rouen"
+  description: "Accompagnement à l'élaboration du nouveau projet social de territoire"
 - picture: "https://upload.wikimedia.org/wikipedia/fr/f/f6/Valenciennes_M%C3%A9tropole_logo_2012.png"
   title: "Valenciennes Métropole"
   description: "Accompagnement dans la mise en place de son Projet territorial de cohésion social"
@@ -195,6 +198,12 @@ evaluation:
   description: "Evaluation du volet social du PRUS en vue de l’actualisation des enjeux sociaux sur le quartier du Petit Nanterre"
 
 formation:
+- picture: "http://www.cnfpt.fr/sites/default/files/images/etude/field_visuel_etude/1363260186/cnfpt.jpg"
+  title: "CNFPT Dunkerque"
+  description: "Formation - La participation des habitants, moteur de l'action territoriale"
+- picture: "http://www.cnfpt.fr/sites/default/files/images/etude/field_visuel_etude/1363260186/cnfpt.jpg"
+  title: "CNFPT"
+  description: "Conférence - Les budgets participatifs, un investissement partagé/citoyen"
 - picture: "http://conseilsdequartiersparis10.org/wp-content/uploads/2016/10/Logo-Paris.png"
   title: "Ville de Paris"
   description: "Formation de l'ensemble des agents de la ville à la laïcité, gestion du fait religieux et à la lutte contre les discriminations"
@@ -213,6 +222,15 @@ formation:
 - picture: "https://upload.wikimedia.org/wikipedia/fr/c/c4/La_Seyne-sur-Mer_logo_2009.png"
   title: "GIP Nouvelle Seyne"
   description: "Formation-accompagnement sur le PRE Seynois"
+- picture: "http://www.somme14-18.com/sites/www.prod/files/assets/images/logo_prefetsomme_rvb_2010.jpg"
+  title: "Préfecture de la Somme"
+  description: "Formation des conseils citoyens d’Amiens – Des idées aux projets, de l’initiative à la mise en oeuvre"
+- picture: "https://upload.wikimedia.org/wikipedia/fr/thumb/7/71/Logo_Saint-Pol-sur-Mer.svg/1255px-Logo_Saint-Pol-sur-Mer.svg.png"
+  title: "Ville Saint Pol sur Mer"
+  description: "Formation des conseil citoyens"
+- picture: "http://www.cnfpt.fr/sites/default/files/images/etude/field_visuel_etude/1363260186/cnfpt.jpg"
+  title: "CNFPT Angers"
+  description: "Le bilan et les perspectives de la politique de la ville"
 
 animation:
 - picture: "https://www.grapheine.com/wp-content/uploads/2012/08/logo_nord_ledepartement.jpg"
