@@ -20,6 +20,3 @@ activate :deploy do |deploy|
   deploy.build_before = true
   deploy.deploy_method = :git
 end
-
-activate :relative_assets
-set :relative_links, true

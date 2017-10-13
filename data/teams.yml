@@ -16,7 +16,7 @@
   last_name: "Prieur"
   picture: "images/team/AubryPrieur.png"
   description: "Chargé de gestion de la coopérative & consultant associé"
-  link: "../team/aubry-prieur.html"
+  link: "/team/aubry-prieur.html"
 - first_name: "Gilles"
   last_name: "Rivet"
   picture: "../images/team/GillesRivet.png"
