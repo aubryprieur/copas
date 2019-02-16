@@ -84,7 +84,7 @@ p {
 
 </style>
 
-<a href="#">
+<a href="/copas">
  <svg height="0.8em" width="0.8em" viewBox="0 0 2 1" preserveAspectRatio="none">
   <polyline
         fill="none"
@@ -97,19 +97,6 @@ p {
 <div class="background-wrapper">
   <h1 id="visual">404</h1>
 </div>
-<p>The page you’re looking for does not exist.</p>
+<p>La page que vous recherchezn'existe pas</p>
 
-<script type="text/javascript">
-  const visual = document.getElementById("visual")
-const events = ['resize', 'load']
 
-events.forEach(function(e){
-  window.addEventListener(e, function(){
-    const width = window.innerWidth
-    const height = window.innerHeight
-    const ratio = 45 / (width / height)
-    visual.style.transform = "translate(-50%, -50%) rotate(-" + ratio + "deg)"
-  });
-});
-
-</script>
