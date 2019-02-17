@@ -1,14 +1,27 @@
 <div class=" container cv-card">
-<h2 class="text-center">QUELQUES RÉFÉRENCES</h2>
-<div class="row">
-<% name.each do |card| %>
-  <div class="product col-xs-12 col-sm-6 col-md-4 ">
-  <img src="<%= card.picture %>" alt="<%= card.title %>" class="product-image hidden-xs">
-  <div class='product-body'>
-    <h3><%= card.title %></h3>
-    <p><%= card.description %></p>
+  <h2 class="text-center">QUELQUES RÉFÉRENCES</h2>
+  <div class="row">
+    <% name.each do |card| %>
+      <div class="flip-card product col-xs-12 col-md-6 col-lg-4">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="<%= card.picture %>" alt="<%= card.client %>" class="product-image hidden-xs">
+            <div>
+              <h3><%= card.client %></h3>
+              <p><%= card.title %></p>
+            </div>
+          </div>
+          <div class="flip-card-back">
+            <p><%= card.description %></p>
+          </div>
+        </div>
+      </div>
+    <% end %>
   </div>
 </div>
-<% end %>
-</div>
-</div>
+
+
+
+
+
+
