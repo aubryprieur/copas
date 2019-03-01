@@ -339,7 +339,7 @@ animation:
   description: ""
 
 numerique:
-- picture: "http://www.rivp.fr/wp-content/uploads/2016/06/Logo-RIVP-85-k.jpg"
+- picture: "https://www.rivp.fr/wp-content/themes/rivp/img/logo-rivp-300.svg"
   client: "RIVP - Régie Immobilière de la ville de la Paris"
   title: "Mise en œuvre et accompagnement du budget participatif auprès des locataires"
   description: ""
