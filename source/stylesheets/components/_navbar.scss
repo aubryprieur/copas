@@ -11,6 +11,19 @@
   }
 }
 
+.fa-bars {
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  img {
+    margin-left: 35px;
+  }
+  .fa-bars {
+    margin-right: 35px;
+  }
+}
+
 .navbar {
   background-color: rgba(0, 0, 0, 0.4);
 }
@@ -50,3 +63,5 @@
     background: none;
     color: #FFF67E;
 }
+
+
