@@ -16,6 +16,7 @@ gem 'jquery-middleman'
 group :development, :test do
   gem 'better_errors'
   gem 'binding_of_caller'
+  gem 'rb-readline', '~> 0.5.5'
 end
 
 
