@@ -7,7 +7,7 @@
       <p>Suivez notre actualité, nos interventions, nos actions de terrain, nos analyses et réflexions.</p>
     </div>
       <% data.articles.each do |article| %>
-        <div class="col-xs-12 col-sm-4 card-article">
+        <div class="col-sm-6 col-md-4 card-article">
           <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url('<%= article.picture %>');background-repeat: round">
             <div class="card-description">
               <p class="card-category"><strong>| <%= article.category.upcase %> |</strong> </p>

@@ -37,12 +37,13 @@
   border-radius: 10px;
   background-color: #ffcf00;
   color: white;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .btn:hover {
-  font-size: 12px;
+  font-weight: bold;
   color: white;
+  border: 1px solid white;
 }
 
 .btn:focus {
@@ -68,4 +69,8 @@
   p {
     color: #777777
   }
+}
+
+.card-category {
+  margin-top: 0;
 }
