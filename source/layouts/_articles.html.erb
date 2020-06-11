@@ -15,6 +15,8 @@
               <p class="article-description"><%= article.description.capitalize %></p>
               <% if article.link == "#" %>
                 <a href="/#section-actualites" class="btn"> >> Prochainement</a>
+              <% elsif article.category == "recrutement" %>
+                <a href="<%= article.link %>" target="_blank" class="btn"> >> Télécharger l'annonce</a>
               <% else %>
                 <a href="<%= article.link %>" target="_blank" class="btn"> >> Télécharger l'article</a>
               <% end %>
