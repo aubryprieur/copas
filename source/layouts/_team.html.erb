@@ -1,5 +1,5 @@
 <div class="team text-center" id="section-about">
-  <div class="container">
+  <div class="container test">
     <div class="content">
       <h2>NOTRE ÉQUIPE</h2>
       <p>Le conseil coopératif repose sur une <strong>équipe polyvalente</strong> de consultants qui ont en commun d'être associés et porteurs de l'aventure de la SCOP</p>
@@ -7,39 +7,15 @@
     </div>
     <div class="cards">
       <div class="row">
-        <div>
-          <% data.teams.first(3).each do |team| %>
-          <a href="<%= team.link %>">
-            <div class="col-xs-12 col-sm-6 col-md-4 team-card">
-              <img src="<%= team.picture %>" alt="<%= team.first_name.capitalize %> <%= team.last_name.upcase %>" class="avatar">
-              <h3><%= team.first_name.capitalize %> <%= team.last_name.upcase %></h3>
-              <p><%= team.description.capitalize %></p>
-            </div>
-          </a>
-          <% end %>
-        </div>
-        <div >
-          <% data.teams.values_at(3).each do |team| %>
-            <a href="<%= team.link %>">
-              <div class="col-xs-12 col-sm-6 col-md-offset-2 col-md-4 team-card">
-                <img src="<%= team.picture %>" alt="<%= team.first_name.capitalize %> <%= team.last_name.upcase %>" class="avatar">
-                <h3><%= team.first_name.capitalize %> <%= team.last_name.upcase %></h3>
-                <p><%= team.description.capitalize %></p>
-              </div>
-            </a>
-          <% end %>
-        </div>
-        <div >
-          <% data.teams.last(1).each do |team| %>
-          <a href="<%= team.link %>">
-            <div class="col-xs-12 col-sm-12 col-md-4 team-card">
-              <img src="<%= team.picture %>" alt="<%= team.first_name.capitalize %> <%= team.last_name.upcase %>" class="avatar">
-              <h3><%= team.first_name.capitalize %> <%= team.last_name.upcase %></h3>
-              <p><%= team.description.capitalize %></p>
-            </div>
-          </a>
-          <% end %>
-        </div>
+        <% data.teams.each do |team| %>
+        <a href="<%= team.link %>">
+          <div class="col-xs-12 col-sm-6 col-md-4 team-card">
+            <img src="<%= team.picture %>" alt="<%= team.first_name.capitalize %> <%= team.last_name.upcase %>" class="avatar">
+            <h3><%= team.first_name.capitalize %> <%= team.last_name.upcase %></h3>
+            <p><%= team.description.capitalize %></p>
+          </div>
+        </a>
+        <% end %>
       </div>
     </div>
   </div>

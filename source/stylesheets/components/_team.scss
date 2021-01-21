@@ -1,5 +1,6 @@
 .team {
   text-align: center;
+  margin: 0 auto;
   padding: 50px 0 60px 0;
   p {
     font-size: 16px;
@@ -25,6 +26,11 @@
 
 .content p:last-child {
   padding-bottom: 20px;
+}
+
+.team-card {
+  background-color: white;
+  margin: 5px;
 }
 
 .team-card h3 {
