@@ -6,7 +6,10 @@ gem "middleman-sprockets", "~> 4.0.0.rc"
 gem 'middleman-deploy', git: 'https://github.com/lewagon/middleman-deploy.git'
 gem 'pry-byebug', require: true
 gem "middleman-blog", "~> 4.0"
-gem 'nokogiri', '~> 1.10', '>= 1.10.9'
+gem "nokogiri", ">= 1.11.0"
+gem "kramdown", ">= 2.3.0"
+gem "rack", ">= 2.2.3"
+gem "activesupport", ">= 5.2.4.3"
 
 # Assets
 gem 'font-awesome-middleman'
