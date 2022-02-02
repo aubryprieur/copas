@@ -1,0 +1,27 @@
+---
+title: COPAS - Marianne Pladys
+---
+<%= partial "layouts/navbar2" %>
+<div>
+  <div id="cv">
+    <div class="about-content">
+      <ul class="list-inline">
+        <li>
+          <%= image_tag "https://res.cloudinary.com/copas/image/upload/v1643190999/Equipe/Marianne-Pladys.png", class: "img-circle" %>
+          <h2><%= data.teams[4].first_name %> <%= data.teams[4].last_name %></h2>
+          <p><a href="mailto:<%= data.teams[3].email %>"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;<%= data.teams[4].email %></a></p>
+          <p><i class="fa fa-phone"></i><%= data.teams[4].phone%> </p>
+        </li>
+      </ul>
+      <div class="row">
+        <div class="col-md-offset-3 col-md-6 cv-description">
+          <p>En cours de rédaction.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+<!--   <div class="references">
+    <%= partial "layouts/cv-card", :locals => { name: data.cvcards.gillesrivet} %>
+  </div> -->
+</div>

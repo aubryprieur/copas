@@ -1,0 +1,50 @@
+details {
+  box-shadow: 0.5px solid #aaa;
+  border-radius: 4px;
+  padding: .5em .5em 0;
+  margin : 10px 0;
+  text-align: left;
+}
+
+section {
+  font-weight: lighter;
+  color: black;
+}
+
+summary {
+  background-color: #F0F0F0;
+  font-weight: lighter;
+  margin: -.5em -.5em 0;
+  padding: .5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: disclosure-closed;
+}
+
+.info-formation {
+  display: flex;
+  flex-direction: column;
+}
+
+.duration-formation, .place-formation {
+  padding-top: 5px;
+}
+
+details[open] {
+  padding: .5em;
+}
+
+details[open] summary {
+  border-bottom: 0.5px solid #aaa;
+  margin-bottom: .5em;
+}
+
+details > summary {
+  box-shadow: 0.5px solid #aaa;
+  cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+  font-size:20px !important;
+}
