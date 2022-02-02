@@ -15,7 +15,7 @@ summary {
   background-color: #F0F0F0;
   font-weight: lighter;
   margin: -.5em -.5em 0;
-  padding: .5em;
+  padding: .5em 2em;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -47,4 +47,10 @@ details > summary {
 
 summary::-webkit-details-marker {
   font-size:20px !important;
+}
+
+.rating__formation {
+  font-weight: lighter;
+  font-size: .7em;
+  color: #aaa,
 }
