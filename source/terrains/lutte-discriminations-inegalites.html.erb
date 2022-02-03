@@ -1,0 +1,26 @@
+---
+title: COPAS - Lutte contre les discriminations et les inégalités injustes
+---
+<%= partial "layouts/navbar2" %>
+<div class="ground">
+  <div class="container">
+    <div class="ground-content">
+      <h1>
+        LUTTE CONTRE LES DISCRIMINATIONS ET LES INÉGALITÉS INJUSTES
+      </h1>
+      <p>
+        Nous menons des recherches-actions, des études et des diagnostics et animons des temps de formation à l’échelle d’organisations ou de territoires (<a href="<%= data.flyers[9].link %>" target="_blank" class="plaquette"><i class="fa fa-download"></i>&nbsp;&nbsp;<strong><%= data.flyers[9].name %></strong> </a>), pour favoriser la lutte contre les discriminations et les inégalités injustes. Ce travail peut donner lieu à l’organisation de conférences ou de temps forts (assises de l’égalité, séminaires, journées territoriales de réflexion, …).
+        Nous proposons également la rédaction participative de différents supports (guides pratiques) ou de plans d’actions.
+      </p>
+      <h2>
+        Notre approche
+      </h2>
+      <p>
+        Lutter contre les inégalités injustes implique de mettre en lumière les inégalités qui résultent d’un rapport de pouvoir (conscientisé et articulé à un sentiment d’injustice ou non), de comprendre les dynamiques à l’œuvre et d’agir sur leurs déterminants. La lutte contre les discriminations consiste, quant à elle, à lutter contre les différentes formes d’inégalités de traitement, volontaires ou involontaires mais liés à des critères prohibés, dans différentes sphères de la vie sociale (travail, logement, loisirs, accès aux services publics, …). Notre travail consiste à éclairer les acteurs sur le plan juridique mais aussi et surtout sur les rapports sociaux, les mécanismes psycho-sociaux et les dynamiques organisationnelles de prise de décision qui engendrent de la discrimination (<a href="<%= data.flyers[4].link %>" target="_blank" class="plaquette"><i class="fa fa-download"></i>&nbsp;&nbsp;<strong><%= data.flyers[4].name %></strong> </a>).
+      </p>
+    </div>
+  </div>
+  <div class="references">
+    <%= partial "layouts/cv-card", :locals => { name: data.refcards.discrimination} %>
+  </div>
+</div>
