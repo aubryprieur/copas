@@ -14,39 +14,9 @@ title: COPAS - Formation
       <h2>
         Notre offre
       </h2>
-      <details>
-        <summary>
-          <div class="clk"><i class="fas fa-chevron-right"></i> Lutte contre les discriminations</div>
-          <div class="info-formation">
-            <p class="duration-formation"><i class="far fa-clock"></i> 2 jours</p>
-            <p class="place-formation"><i class="far fa-user"></i> En présentiel</p>
-          </div>
-          <!-- <div class="rating__formation"><i class="far fa-star"></i>85% de satisfaction (25 avis)</div> -->
-        </summary>
-        <section>1.Description</section>
-        <p>Le contrat est source d'obligations réciproques. Toute personne négociant les contrats commerciaux doit identifier les risques pour protéger son entreprise par des clauses appropriées. Peut-on refuser de vendre, comment rompre une relation commerciale établie ou réagir en cas d'inexécution d'une obligation ? Voici des situations nécessitant des bons réflexes. L'objectif de cette formation au droit commercial est d'acquérir ces bons réflexes contractuels.</p>
-        <section>2.Les objectifs de la formation</section>
-        <p>Maîtriser les fondamentaux du droit commercial. Collaborer avec les juristes. / Négocier et rédiger les clauses essentielles du contrat commercial. Adopter les bons réflexes contractuels à toutes les étapes de la vie du contrat.</p>
-        <section>3.La plaquette de formation</section>
-        <p>
-          <a href="<%= data.flyers[14].link %>" target="_blank" class="plaquette"><i class="fa fa-download"></i>&nbsp;&nbsp;</a><%= data.flyers[14].name %>
-        </p>
-      </details>
+      <%= partial "layouts/formations", :locals => { name: data.formations} %>
 
-      <details>
-        <summary>
-          <div class="clk"><i class="fas fa-chevron-right"></i> Management agile</div>
-          <div class="info-formation">
-            <p class="duration-formation"><i class="far fa-clock"></i> 2 jours</p>
-            <p class="place-formation"><i class="far fa-user"></i> En présentiel</p>
-          </div>
-          <!-- <div class="rating__formation"><i class="far fa-star"></i>79% de satisfaction (25 avis)</div> -->
-        </summary>
-        <section>1.Description</section>
-        <p>Blabla</p>
-        <section>2.Les objectifs de la formation</section>
-        <p>Blabla</p>
-      </details>
+
  <!--      <p>
         Les consultants de COPAS interviennent régulièrement en tant que formateurs auprès de différents acteurs : professionnels des <strong>associations</strong> du secteur sanitaire et social et de l’éducation populaire, <strong>agents de collectivités territoriales</strong> agissant dans le champ du développement social local. Ces formations visent à la fois <strong>les cadres</strong> en charge de l’élaboration de politiques sociales, de projets associatifs… que <strong>la base opérationnelle</strong> en charge de leur mise en œuvre, en prise avec les publics.
       </p>
