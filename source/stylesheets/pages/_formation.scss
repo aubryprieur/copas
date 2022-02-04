@@ -54,3 +54,22 @@ summary::-webkit-details-marker {
   font-size: .7em;
   color: #aaa,
 }
+
+.formation__card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: disclosure-closed;
+  background-color: #F0F0F0;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 5px 15px;
+  box-shadow: 0.5px solid #aaa;
+  cursor: pointer;
+}
+
+.link__formation {
+    text-decoration: none;
+    color: grey !important;
+    font-size: 18px !important;
+  }

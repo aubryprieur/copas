@@ -1,12 +1,12 @@
 ---
-title: COPAS - Formation
+title: COPAS - Formations
 ---
 <%= partial "layouts/navbar2" %>
 <div class="ground">
   <div class="container">
     <div class="ground-content">
       <h1>
-        FORMATION
+        NOS FORMATIONS
       </h1>
       <p>
         Les consultants de COPAS interviennent régulièrement en tant que formateurs auprès de différents acteurs : professionnels des <strong>associations</strong> du secteur sanitaire et social et de l’éducation populaire, <strong>agents de collectivités territoriales</strong> agissant dans le champ du développement social local. Ces formations visent à la fois <strong>les cadres</strong> en charge de l’élaboration de politiques sociales, de projets associatifs… que <strong>la base opérationnelle</strong> en charge de leur mise en œuvre, en prise avec les publics.
@@ -15,37 +15,8 @@ title: COPAS - Formation
         Notre offre
       </h2>
       <%= partial "layouts/formations", :locals => { name: data.formations} %>
-
-
- <!--      <p>
-        Les consultants de COPAS interviennent régulièrement en tant que formateurs auprès de différents acteurs : professionnels des <strong>associations</strong> du secteur sanitaire et social et de l’éducation populaire, <strong>agents de collectivités territoriales</strong> agissant dans le champ du développement social local. Ces formations visent à la fois <strong>les cadres</strong> en charge de l’élaboration de politiques sociales, de projets associatifs… que <strong>la base opérationnelle</strong> en charge de leur mise en œuvre, en prise avec les publics.
-      </p>
-      <h2>
-        Notre offre
-      </h2>
-      <p>
-        Nous disposons de modules de formations sur différents sujets :
-      </p>
-      <p>
-        <a href="<%= data.flyers[14].link %>" target="_blank" class="plaquette"><i class="fa fa-download"></i>&nbsp;&nbsp;</a><strong><%= data.flyers[14].name %></strong>
-      </p>
-      <p>
-        <a href="<%= data.flyers[15].link %>" target="_blank" class="plaquette"><i class="fa fa-download"></i>&nbsp;&nbsp;</a><strong><%= data.flyers[15].name %></strong>
-      </p>
-      <p>
-        <a href="<%= data.flyers[4].link %>" target="_blank" class="plaquette"><i class="fa fa-download"></i>&nbsp;&nbsp;</a><strong><%= data.flyers[4].name %></strong>
-      </p>
-      <p>
-        <a href="<%= data.flyers[16].link %>" target="_blank" class="plaquette"><i class="fa fa-download"></i>&nbsp;&nbsp;</a><strong><%= data.flyers[16].name %></strong>
-      </p>
-      <p>
-        <a href="<%= data.flyers[7].link %>" target="_blank" class="plaquette"><i class="fa fa-download"></i>&nbsp;&nbsp;</a><strong>Accompagner sans disqualifier</strong>
-      </p> -->
     </div>
   </div>
-<!--   <div class="references">
-    <%= partial "layouts/cv-card", :locals => { name: data.refcards.formation} %>
-  </div> -->
 </div>
 
 <script>
