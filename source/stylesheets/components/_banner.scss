@@ -1,10 +1,10 @@
 .banner {
-  color: white;
+  // color: white;
   text-align: center;
   height: 100vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover ;
-  background: #FFCF00;
+  background-image: linear-gradient(176deg, #FFF 80%, #F4F4F4 calc(70% + 2px));
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,8 +23,25 @@
   }
 }
 
-#slogan2 {
-  color: #808080;
+// #slogan2 {
+//   color: #808080;
+// }
+
+.banner-introduction {
+  margin: 35px 0;
+}
+
+.banner-slogan {
+  font-size: 1em !important;
+  line-height: 2 !important;
+}
+
+.banner-btn {
+  border-radius: 10px;
+  background-color: #FECF02;
+  border: none;
+  padding: 15px 10px;
+  color: #FFF;
 }
 
 @media (max-width: 576px) {
