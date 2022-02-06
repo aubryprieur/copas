@@ -1,15 +1,15 @@
 ---
-title: COPAS - Participation citoyenne et budget participatif
+title: COPAS - Évaluation de projet
 ---
 <%= partial "layouts/navbar2" %>
 <div class="ground">
   <div class="container">
     <div class="ground-content">
       <h1>
-        <%= data.formations[0].title %>
+        <%= data.formations[1].title %>
       </h1>
       <p>
-        <%= data.formations[0].introduction %>
+        <%= data.formations[1].introduction %>
       </p>
       <h2>
         Programme de formation
@@ -19,7 +19,7 @@ title: COPAS - Participation citoyenne et budget participatif
           <div class="clk"><i class="fas fa-chevron-right"></i> Objectifs</div>
         </summary>
         <section>
-          <%= data.formations[0].goals %>
+          <%= data.formations[1].goals %>
         </section>
       </details>
       <details>
@@ -27,7 +27,7 @@ title: COPAS - Participation citoyenne et budget participatif
           <div class="clk"><i class="fas fa-chevron-right"></i> Public cible</div>
         </summary>
         <section>
-          <%= data.formations[0].targeted_people %>
+          <%= data.formations[1].targeted_people %>
         </section>
       </details>
       <details>
@@ -35,7 +35,7 @@ title: COPAS - Participation citoyenne et budget participatif
           <div class="clk"><i class="fas fa-chevron-right"></i> Pré-requis</div>
         </summary>
         <section>
-          <%= data.formations[0].prerequisites %>
+          <%= data.formations[1].prerequisites %>
         </section>
       </details>
       <details>
@@ -43,7 +43,7 @@ title: COPAS - Participation citoyenne et budget participatif
           <div class="clk"><i class="fas fa-chevron-right"></i> Mode de validation des acquis</div>
         </summary>
         <section>
-          <%= data.formations[0].validation %>
+          <%= data.formations[1].validation %>
         </section>
       </details>
       <details>
@@ -51,7 +51,7 @@ title: COPAS - Participation citoyenne et budget participatif
           <div class="clk"><i class="fas fa-chevron-right"></i> Moyens pédagogiques et techniques</div>
         </summary>
         <section>
-          <%= data.formations[0].technology %>
+          <%= data.formations[1].technology %>
         </section>
       </details>
       <details>
@@ -59,7 +59,7 @@ title: COPAS - Participation citoyenne et budget participatif
           <div class="clk"><i class="fas fa-chevron-right"></i> Mots clés</div>
         </summary>
         <section>
-          <%= data.formations[0].key_words %>
+          <%= data.formations[1].key_words %>
         </section>
       </details>
       <details>
@@ -67,7 +67,7 @@ title: COPAS - Participation citoyenne et budget participatif
           <div class="clk"><i class="fas fa-chevron-right"></i> Télécharger la plaquette de formation</div>
         </summary>
         <section>
-          <a href= <%= data.formations[0].leaflet %> target="_blank" class="plaquette"><i class="fa fa-download"></i> Lien de téléchargement de la plaquette</a>
+          <a href= <%= data.formations[1].leaflet %> target="_blank" class="plaquette"><i class="fa fa-download"></i> Lien de téléchargement de la plaquette</a>
         </section>
       </details>
     </div>

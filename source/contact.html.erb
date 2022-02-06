@@ -1,0 +1,26 @@
+---
+title: COPAS - Nous contacter
+---
+<%= partial "layouts/navbar2" %>
+
+<div class="ground">
+  <div class="container">
+    <div class="ground-content">
+      <h1>Nous contacter</h1>
+
+      <form action="https://getform.io/f/b3484dbe-9336-42a8-8a5d-e32b4830be31" method="POST">
+          <label>Name (4 to 8 characters):</label>
+          <input type="text" name="name" placeholder="Votre nom">
+          <input type="email" name="email" placeholder="Votre email">
+          <input type="text" name="message" placeholder="Votre message">
+          <!-- radio button handle -->
+          <p>vous souhaitez : </p>
+          <input type="radio" name="gender" value="male">
+          <input type="radio" name="gender" value="female">
+          <input type="radio" name="gender" value="other">
+          <button type="submit">Envoyer</button>
+      </form>
+    </div>
+  </div>
+</div>
+
