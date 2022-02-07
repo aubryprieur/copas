@@ -1,32 +1,35 @@
 ---
 title: COPAS - Nous contacter
 ---
+
 <%= partial "layouts/navbar2" %>
 
 <div class="ground">
   <div class="container">
     <div class="ground-content">
       <h1>Nous contacter</h1>
+        <div id="formkeep-embed" data-formkeep-url="https://formkeep.com/p/81d6c649d25b69ff9523b9e533b19733?embedded=1"></div>
 
-      <form action="https://website-copas-contact.herokuapp.com/" method="POST">
-        <input type="hidden" name="redirect_to" value="http://localhost:4567/merci.html">
-        <label>Nom:</label>
-        <input type="text" name="name" placeholder="Votre nom">
-        <label>Email:</label>
-        <input type="email" name="email" placeholder="Votre email">
-        <label>Message:</label>
-        <input type="text" name="message" placeholder="Votre message">
-        <!-- radio button handle -->
-        <p>vous souhaitez être contacté pour : </p>
-        <label>échanger sur une mission</label>
-        <input type="radio" name="gender" value="male">
-        <label>discuter sur un problème :</label>
-        <input type="radio" name="gender" value="female">
-        <label>un autre besoin :</label>
-        <input type="radio" name="gender" value="other">
-        <button type="submit">Envoyer</button>
-      </form>
+        <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+        <script type="text/javascript" src="https://formkeep-production-herokuapp-com.global.ssl.fastly.net/formkeep-embed.js"></script>
+
+        <!-- Get notified when the form is submitted, add your own code below: -->
+        <script>
+        const formkeepEmbed = document.querySelector('#formkeep-embed')
+
+        formkeepEmbed.addEventListener('formkeep-embed:submitting', _event => {
+          console.log('Submitting form...')
+        })
+
+        formkeepEmbed.addEventListener('formkeep-embed:submitted', _event => {
+          console.log('Submitted form...')
+        })
+        </script>
     </div>
   </div>
 </div>
+
+
+
+
 
