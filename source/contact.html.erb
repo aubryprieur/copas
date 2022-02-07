@@ -8,17 +8,23 @@ title: COPAS - Nous contacter
     <div class="ground-content">
       <h1>Nous contacter</h1>
 
-      <form action="https://getform.io/f/b3484dbe-9336-42a8-8a5d-e32b4830be31" method="POST">
-          <label>Name (4 to 8 characters):</label>
-          <input type="text" name="name" placeholder="Votre nom">
-          <input type="email" name="email" placeholder="Votre email">
-          <input type="text" name="message" placeholder="Votre message">
-          <!-- radio button handle -->
-          <p>vous souhaitez : </p>
-          <input type="radio" name="gender" value="male">
-          <input type="radio" name="gender" value="female">
-          <input type="radio" name="gender" value="other">
-          <button type="submit">Envoyer</button>
+      <form action="https://website-copas-contact.herokuapp.com/" method="POST">
+        <input type="hidden" name="redirect_to" value="http://localhost:4567/merci.html">
+        <label>Nom:</label>
+        <input type="text" name="name" placeholder="Votre nom">
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="Votre email">
+        <label>Message:</label>
+        <input type="text" name="message" placeholder="Votre message">
+        <!-- radio button handle -->
+        <p>vous souhaitez être contacté pour : </p>
+        <label>échanger sur une mission</label>
+        <input type="radio" name="gender" value="male">
+        <label>discuter sur un problème :</label>
+        <input type="radio" name="gender" value="female">
+        <label>un autre besoin :</label>
+        <input type="radio" name="gender" value="other">
+        <button type="submit">Envoyer</button>
       </form>
     </div>
   </div>
