@@ -16,7 +16,7 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://kit.fontawesome.com/6ff4afb2b5.js"></script>
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title>COPAS - Middleman - About</title>
+    <title>COPAS - Nous contacter</title>
     <link href="stylesheets/application-90623f5b.css" rel="stylesheet" />
     <script src="javascripts/application-b3a9f2ca.js"></script>
     <link href="images/favicon-6d3a5c64.png" rel="icon" type="image/png" />
@@ -79,20 +79,36 @@
             </div>
         </nav>
 
-<div id="about">
-  <div class="about-content">
-    <h1>This template was built with <i class="fa fa-heart"></i> by</h1>
-    <ul class="list-inline">
-        <li>
-<a href="https://kitt.lewagon.com/alumni/aubryprieur" target="_blank">            <img src="https://kitt.lewagon.com/placeholder/users/aubryprieur" class="img-circle" alt="" />
-</a>          <h2>Aubry Prieur</h2>
-          <p>
-<a href="https://github.com/aubryprieur" target="_blank">              <i class="fa fa-github"></i> aubryprieur
-</a>          </p>
-        </li>
-    </ul>
+
+<div class="ground">
+  <div class="container">
+    <div class="ground-content">
+      <h1>Nous contacter</h1>
+        <div id="formkeep-embed" data-formkeep-url="https://formkeep.com/p/81d6c649d25b69ff9523b9e533b19733?embedded=1"></div>
+
+        <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+        <script type="text/javascript" src="https://formkeep-production-herokuapp-com.global.ssl.fastly.net/formkeep-embed.js"></script>
+
+        <!-- Get notified when the form is submitted, add your own code below: -->
+        <script>
+        const formkeepEmbed = document.querySelector('#formkeep-embed')
+
+        formkeepEmbed.addEventListener('formkeep-embed:submitting', _event => {
+          console.log('Submitting form...')
+        })
+
+        formkeepEmbed.addEventListener('formkeep-embed:submitted', _event => {
+          console.log('Submitted form...')
+        })
+        </script>
+    </div>
   </div>
 </div>
+
+
+
+
+
 
     <div class="footer" id="section-contact">
   <div class="container">
