@@ -23,9 +23,16 @@
   }
 }
 
-// #slogan2 {
-//   color: #808080;
-// }
+span {
+  background-image: linear-gradient(to right, rgba(255,255,255,0) 80%, rgba(254, 207, 2, 80) 70%);
+  background-position: -0% 0;
+  background-size: 200% auto;
+  text-decoration: none;
+  transition: background-position 0.5s ease-out;
+}
+span:hover {
+  background-position: -99.99% 0;
+}
 
 .banner-introduction {
   margin: 35px 0;
