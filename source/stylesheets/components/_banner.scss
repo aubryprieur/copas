@@ -24,7 +24,6 @@
 }
 
 #slogan__1, #slogan__2, #slogan__3, #slogan__4 {
-  background-image: linear-gradient(to right, rgba(255,255,255,0) 78%, rgba(254, 207, 2, 80) 70%);
   background-position: -0% 0;
   background-size: 200% auto;
   text-decoration: none;
@@ -33,18 +32,18 @@
 }
 
 #slogan__1 {
-  background-image: linear-gradient(to right, rgba(255,255,255,0) 78%, rgba(254, 207, 2, 80) 70%);
+  background-image: linear-gradient(to right, rgba(255,255,255,0) 78%, rgba(254, 207, 2, 0.5) 70%);
 }
 #slogan__2 {
-  background-image: linear-gradient(to right, rgba(255,255,255,0) 87.5%, rgba(254, 207, 2, 80) 70%);
+  background-image: linear-gradient(to right, rgba(255,255,255,0) 87.5%, rgba(254, 207, 2, 0.5) 70%);
   animation-delay: 1s;
 }
 #slogan__3 {
-  background-image: linear-gradient(to right, rgba(255,255,255,0) 78%, rgba(254, 207, 2, 80) 70%);
+  background-image: linear-gradient(to right, rgba(255,255,255,0) 78%, rgba(254, 207, 2, 0.5) 70%);
   animation-delay: 2s;
 }
 #slogan__4 {
-  background-image: linear-gradient(to right, rgba(255,255,255,0) 80%, rgba(254, 207, 2, 80) 70%);
+  background-image: linear-gradient(to right, rgba(255,255,255,0) 80%, rgba(254, 207, 2, 0.5) 70%);
   animation-delay: 3s;
 }
 
