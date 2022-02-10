@@ -4,6 +4,7 @@ details {
   padding: .5em .5em 0;
   margin : 10px 0;
   text-align: left;
+  color: #777777;
 }
 
 summary {
@@ -15,6 +16,11 @@ summary {
   justify-content: space-between;
   align-items: center;
   list-style: disclosure-closed;
+}
+
+section {
+  font-size: 16px;
+  font-weight: lighter;
 }
 
 .info-formation {
