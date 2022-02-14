@@ -18,6 +18,10 @@ summary {
   list-style: disclosure-closed;
 }
 
+details summary::-webkit-details-marker {
+  display:none;
+}
+
 section {
   font-size: 16px;
   font-weight: lighter;
