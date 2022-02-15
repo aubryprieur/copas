@@ -190,9 +190,9 @@ mariannepladys:
   client: "LADAPT IEM CAMBRAI"
   title: "GAPP - Groupe d'Analyses des Pratiques professionnelles"
   description: ""
-- picture: "https://res.cloudinary.com/copas/image/upload/v1588609588/Logos%20clients/checkbox.png"
+- picture: "https://res.cloudinary.com/copas/image/upload/v1644912131/Logos%20clients/GHEF.png"
   client: "MAS Coulommiers"
-  title: "Audit"
+  title: "Audit organisationnel"
   description: ""
 - picture: "https://res.cloudinary.com/copas/image/upload/v1588607878/Logos%20clients/has.png"
   client: "ASRL - Arbre de Guise Seclin"
@@ -205,6 +205,10 @@ mariannepladys:
 - picture: "https://res.cloudinary.com/copas/image/upload/v1588607878/Logos%20clients/has.png"
   client: "Habitat Jeune Calais"
   title: "Évaluation externe"
+  description: ""
+- picture: "https://res.cloudinary.com/copas/image/upload/v1587137987/Logos%20clients/aylf.jpg"
+  client: "Association Yves Lefebvre"
+  title: "Élaboration du projet de service"
   description: ""
 
 saidbechrouri:
