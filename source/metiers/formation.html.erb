@@ -15,14 +15,16 @@ title: COPAS - Formations
         Notre offre
       </h2>
       <h3>En inter</h3>
+      <p>vous voulez vous inscrire à une de nos formations.</p>
       <%= partial "layouts/formations-inter", :locals => { name: data.formations} %>
       <h3>En intra</h3>
-      <%= partial "layouts/formations-intra", :locals => { name: data.formations} %>
+      <p>Vous voulez mettre en oeuvre une formation au sein de votre organisation.</p>
+      <%= partial "layouts/formations-intra", :locals => { name: data.intras} %>
       <h3>Informations complémentaires</h3>
       <ul>
         <li>Nos formations sont éligibles à une prise en charge par votre OPCO.</li>
         <li>Nous contacter : contact@copas.coop / 03.61.50.71.34</li>
-        <li><a href="">Informations complémentaires</a></li>
+        <li><a href="./formations/informations.html">Informations complémentaires</a></li>
       </ul>
     </div>
   </div>
