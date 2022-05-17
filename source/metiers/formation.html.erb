@@ -9,12 +9,21 @@ title: COPAS - Formations
         NOS FORMATIONS
       </h1>
       <p>
-        Les consultants de COPAS interviennent régulièrement en tant que formateurs auprès de différents acteurs : professionnels des <strong>associations</strong> du secteur sanitaire et social et de l’éducation populaire, <strong>agents de collectivités territoriales</strong> agissant dans le champ du développement social local. Ces formations visent à la fois <strong>les cadres</strong> en charge de l’élaboration de politiques sociales, de projets associatifs… que <strong>la base opérationnelle</strong> en charge de leur mise en œuvre, en prise avec les publics.
+        A retravailler (Marianne)
       </p>
       <h2>
         Notre offre
       </h2>
-      <%= partial "layouts/formations", :locals => { name: data.formations} %>
+      <h3>En inter</h3>
+      <%= partial "layouts/formations-inter", :locals => { name: data.formations} %>
+      <h3>En intra</h3>
+      <%= partial "layouts/formations-intra", :locals => { name: data.formations} %>
+      <h3>Informations complémentaires</h3>
+      <ul>
+        <li>Nos formations sont éligibles à une prise en charge par votre OPCO.</li>
+        <li>Nous contacter : contact@copas.coop / 03.61.50.71.34</li>
+        <li><a href="">Informations complémentaires</a></li>
+      </ul>
     </div>
   </div>
 </div>

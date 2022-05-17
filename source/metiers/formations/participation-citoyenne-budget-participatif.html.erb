@@ -19,7 +19,11 @@ title: COPAS - Participation citoyenne et budget participatif
           <div class="clk"><i class="fas fa-chevron-right"></i> Objectifs</div>
         </summary>
         <section>
-          <%= data.formations[0].goals %>
+          <ul>
+            <% data.formations[0].goals.each do |f| %>
+              <li><%= f %></li>
+            <% end %>
+          </ul>
         </section>
       </details>
       <details>

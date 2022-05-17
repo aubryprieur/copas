@@ -1,3 +1,9 @@
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(0,0,0,0.6);
+  }
+
 details {
   box-shadow: 0.5px solid #aaa;
   border-radius: 4px;
@@ -73,8 +79,27 @@ summary::-webkit-details-marker {
   cursor: pointer;
 }
 
+.intra__card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: lighter;
+  list-style: disclosure-closed;
+  background-color: #F0F0F0;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 5px 15px;
+  box-shadow: 0.5px solid #aaa;
+}
+
 .link__formation {
-    text-decoration: none;
-    color: grey !important;
-    font-size: 18px !important;
+  text-decoration: none;
+  color: grey !important;
+  font-size: 18px !important;
+  }
+
+.text__intra {
+  text-decoration: none;
+  color: grey !important;
+  font-size: 18px !important;
   }

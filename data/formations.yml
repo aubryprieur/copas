@@ -7,7 +7,9 @@
   de doter les équipes de compétences spécifiques à la mise en place d’un budget participatif tant en termes de pilotage, de coordination que dans la gestion et l’administration d’outils participatifs spécifiques ;
   de se projeter collectivement et concrètement dans la réalisation et les facteurs de réussite du budget participatif."
   targeted_people: "Chargés de mission (démocratie participative, communication, SI…), DGS, toute personne en charge d’un projet de démocratie participative"
-  goals: "Identifier les composantes principales de la participation citoyenne - Aborder la question des effets concrets - Appréhender concrètement la mise en place d'un budget participatif - Identifier les différentes étapes d'un budget participatif - Prendre connaissance de différentes expériences - Définir un mode d’organisation collectif de pilotage et de coordination de projet - Prendre connaissance des outils - Définir les facteurs de succès et risques"
+  goals:
+    - "1"
+    - "2"
   prerequisites: "Aucune connaissance particulière"
   key_words: "Démarche participative – budget participatif – plateforme numérique"
   validation: "Un bilan et une évaluation de la formation seront effectués avec les stagiaires à la fin de la formation"
@@ -31,10 +33,11 @@ publique et chargés/responsables de
 projet du secteur de l’ESS en situation
 de portage de projet ou d’évaluation
 de projet."
-  goals: "Savoir définir ce qu’est l’évaluation
-          - Connaitre les principales démarches et outils
-          - Savoir construire un référentiel d’évaluation
-          - Savoir formuler les indicateurs, questions évaluatives"
+  goals:
+    - "Savoir définir ce qu’est l’évaluation"
+    - "Connaitre les principales démarches et outils"
+    - "Savoir construire un référentiel d’évaluation"
+    - "Savoir formuler les indicateurs, questions évaluatives"
   prerequisites: "Aucune connaissance particulière"
   key_words: "projet, évaluation, référentiel, indicateur, questions évaluatives, critères, outils, recueil de données"
   validation: "Un bilan et une évaluation de la formation seront effectués avec les stagiaires à la fin de la formation"
@@ -64,11 +67,12 @@ prévention dans les process de travail."
                     d’une équipe, agents en charge de
                     l’accueil du public, représentants
                     syndicaux"
-  goals: "Comprendre les notions de discriminations et diversité et notions proches (harcèlement, racisme…)
-          - Connaitre les critères de discrimination et le cadre juridique et réglementaire
-          - Éclairer les ressorts de la discrimination (stéréotypes, préjugés) et les mécanismes sociaux et argumentaires
-          - Appréhender les sanctions
-          - Identifier les ressources"
+  goals:
+    - "Comprendre les notions de discriminations et diversité et notions proches (harcèlement, racisme…)"
+    - "Connaitre les critères de discrimination et le cadre juridique et réglementaire"
+    - "Éclairer les ressorts de la discrimination (stéréotypes, préjugés) et les mécanismes sociaux et argumentaires"
+    - "Appréhender les sanctions"
+    - "Identifier les ressources"
   prerequisites: "Aucune connaissance particulière"
   key_words: "discrimination, stéréotype, diversité, cadre juridique, histoire, mécanismes sociaux, argumentaire, piste d’action"
   validation: "Un bilan et une évaluation de la formation seront effectués avec les stagiaires à la fin de la formation"
@@ -101,12 +105,13 @@ d’une équipe projet ou souhaitant
 évoluer dans des fonctions de gestion
 de projet. Débutant ou débutant sur la
 méthodologie en mode agile."
-  goals: "Identifier les composantes principales de la gestion de projet
-          - Initier le changement
-          - Analyser son organisation
-          - Maîtriser les outils de gestion de projet
-          - Formaliser des objectifs accessibles, réalistes dans un temps limité
-          - Communiquer sur un projet"
+  goals:
+    - "Identifier les composantes principales de la gestion de projet"
+    - "Initier le changement"
+    - "Analyser son organisation"
+    - "Maîtriser les outils de gestion de projet"
+    - "Formaliser des objectifs accessibles, réalistes dans un temps limité"
+    - "Communiquer sur un projet"
   prerequisites: "Aucune connaissance particulière"
   key_words: "sociologie des organisations – outillage – approche réflexive – gestion de projet créative – idéation – méthode agile – méthode Scrum – design thinking - coopération"
   validation: "Un bilan et une évaluation de la formation seront effectués avec les stagiaires à la fin de la formation"

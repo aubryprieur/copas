@@ -19,7 +19,11 @@ title: COPAS - Évaluation de projet
           <div class="clk"><i class="fas fa-chevron-right"></i> Objectifs</div>
         </summary>
         <section>
-          <%= data.formations[1].goals %>
+          <ul>
+            <% data.formations[1].goals.each do |f| %>
+              <li><%= f %></li>
+            <% end %>
+          </ul>
         </section>
       </details>
       <details>
