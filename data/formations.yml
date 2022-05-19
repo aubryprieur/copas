@@ -1,126 +1,16 @@
-- title: "Sensibilisation à la participation citoyenne et au budget participatif"
+- title: "Lutte contre les discriminations"
   duration: "2 jours"
-  place: "En présentiel"
-  introduction : "L’ambition d’impliquer les habitants dans la mise en œuvre de politiques publiques est déjà ancienne et retrouve dans l’actualité récente une certaine « vitalité ». Les dispositifs institutionnels de <strong>démocratie participative</strong> tendent aujourd’hui à changer d’échelle en passant de la « coopération symbolique » au « pouvoir effectif des citoyens ». Pour autant encore, le changement de culture politique, d’habitudes partenariales et de pratiques professionnelles que cela implique est parfois peu anticipé.
-  La mise en place récente et le développement des <strong>budgets participatifs</strong> en France est un signe favorable et prometteur d’une montée en puissance de la <strong>participation citoyenne</strong> dans son sens le plus abouti (« prendre part » à la vie de la cité en disposant d’un pouvoir effectif).
-  La démarche de formation que Copas vous propose, vise à transmettre des savoirs et une culture de la participation ;
-  de doter les équipes de compétences spécifiques à la mise en place d’un budget participatif tant en termes de pilotage, de coordination que dans la gestion et l’administration d’outils participatifs spécifiques ;
-  de se projeter collectivement et concrètement dans la réalisation et les facteurs de réussite du budget participatif."
-  targeted_people: "Chargés de mission (démocratie participative, communication, SI…), DGS, toute personne en charge d’un projet de démocratie participative"
+  # place: "En présentiel"
+  introduction : "Cette formation vise à renforcer l’égalité de traitement des acteur·trice·s des territoires au travers l’amélioration de la prise en compte de la prévention des discriminations, d’une part, et du développement d’une culture et une vision communes de la lutte contre les discriminations, de l’autre."
+  targeted_people: "Cadres associatifs, agents des collectivités"
   goals:
-    - "1"
-    - "2"
+    - "Identifier ce que recouvrent les discriminations sur le plan sociologique (causes, formes, conséquences, …)"
+    - "Envisager les articulations entre les niveaux micro, méso et macro (des stéréotypes individuels aux rapports sociaux) en matière de processus discriminatoires"
+    - "Appréhender les discriminations au regard du droit français et européen (critères et champs ; discriminations directes et indirectes, …)"
+    - "Caractériser leur place et leur rôle en matière de lutte contre les discriminations"
   prerequisites: "Aucune connaissance particulière"
-  key_words: "Démarche participative – budget participatif – plateforme numérique"
+  key_words: "Discriminations - Inégalités - Stigmatisation - Droit - Sociologie"
   validation: "Un bilan et une évaluation de la formation seront effectués avec les stagiaires à la fin de la formation"
-  technology: "Apports pédagogiques - Études de cas concrets apportés - Mises en situation - Supports de formation - Outils (canevas, grilles, etc.) - Outils numériques - Les différents outils seront remis sur Clef USB"
+  technology: "Apports pédagogiques - Études de cas concrets apportés - Mises en situation - Livret de formation - Les différents outils seront transmis au format numérique"
   leaflet: "https://res.cloudinary.com/copas/image/upload/v1623155002/Plaquettes/Formation_Budget_Participatif.pdf"
-  link: "/metiers/formations/participation-citoyenne-budget-participatif.html"
-- title: "L'évaluation des projets"
-  duration: "1 jour"
-  place: "En présentiel"
-  introduction: "En matière de gestion de projet, l’évaluation est une étape incontournable. De fait, les encadrants
-d’associations, les responsables de projet, sont de plus en plus amenés à intégrer l’évaluation dans leurs
-projets d’une part en raison d’exigences internes de qualité, de volonté de s’inscrire dans des
-démarches de progrès, de comprendre et d’identifier points de blocages et bonnes pratiques et
-d’autre part pour donner de la lisibilité à leurs actions que ce soit à leurs partenaires, à leurs usagers ou à
-leurs financeurs.
-Copas propose une formation courte permettant aux salariés en situation de pilotage de projets de
-comprendre ce qu’est l’évaluation ; de mieux appréhender les différentes notions rattachées et
-commencer à manipuler les outils de l’évaluation."
-  targeted_people: "Concerne les agents de la fonction
-publique et chargés/responsables de
-projet du secteur de l’ESS en situation
-de portage de projet ou d’évaluation
-de projet."
-  goals:
-    - "Savoir définir ce qu’est l’évaluation"
-    - "Connaitre les principales démarches et outils"
-    - "Savoir construire un référentiel d’évaluation"
-    - "Savoir formuler les indicateurs, questions évaluatives"
-  prerequisites: "Aucune connaissance particulière"
-  key_words: "projet, évaluation, référentiel, indicateur, questions évaluatives, critères, outils, recueil de données"
-  validation: "Un bilan et une évaluation de la formation seront effectués avec les stagiaires à la fin de la formation"
-  technology: "Supports de formation
-              - Interactions avec les stagiaires
-              - Étude de cas : Référentiel d’évaluation développé par d’autres structures sur des projets particuliers.
-              Les documents seront remis sur clé USB (à la fin de la formation)."
-  leaflet: "https://res.cloudinary.com/copas/image/upload/v1623155002/Plaquettes/Formation-Evaluation.pdf"
-  link: "/metiers/formations/evaluation-de-projet.html"
-- title: "Prévention des risques de discrimination et promotion de la diversité"
-  duration: "1 jour"
-  place: "En présentiel"
-  introduction: "Dans le contexte actuel, la prévention des risques de discrimination et la promotion de la diversité
-représentent de réels enjeux : les problématiques de genre, d’appartenance ethnique vraie ou
-supposée, de handicap ou encore de l’orientation sexuelle sont désormais structurantes des politiques
-publiques que ce soit dans l’accès à l’emploi, le déroulement de carrière ou l’accès aux services
-publics...
-COPAS vous propose dans le cadre de la formation de prendre conscience des mécanismes à l’œuvre
-dans les processus de discrimination, de connaitre les dispositifs juridiques et institutionnel de prévention
-et de lutte contre les discriminations et d’apporter une réflexion opérationnelle pour faciliter la
-prévention dans les process de travail."
-  targeted_people: "L’ensemble des agents de la fonction
-                    publique et plus particulièrement :
-                    responsables RH, agents responsables
-                    du recrutement, du suivi des carrières,
-                    agents chargés de l’encadrement
-                    d’une équipe, agents en charge de
-                    l’accueil du public, représentants
-                    syndicaux"
-  goals:
-    - "Comprendre les notions de discriminations et diversité et notions proches (harcèlement, racisme…)"
-    - "Connaitre les critères de discrimination et le cadre juridique et réglementaire"
-    - "Éclairer les ressorts de la discrimination (stéréotypes, préjugés) et les mécanismes sociaux et argumentaires"
-    - "Appréhender les sanctions"
-    - "Identifier les ressources"
-  prerequisites: "Aucune connaissance particulière"
-  key_words: "discrimination, stéréotype, diversité, cadre juridique, histoire, mécanismes sociaux, argumentaire, piste d’action"
-  validation: "Un bilan et une évaluation de la formation seront effectués avec les stagiaires à la fin de la formation"
-  technology: "Apports pédagogiques
-              - Mise en pratique sur la base d’exercices, études de cas ou mise en situation
-              - Animation participative
-              - Supports de formation, support visuel
-              - Jeu sur les stéréotypes
-              Les différents outils seront remis sur Clef USB."
-  leaflet: "https://res.cloudinary.com/copas/image/upload/v1623155002/Plaquettes/Formation_Prevension_Discriminationpdf.pdf"
-  link: "/metiers/formations/prevention-des-risques-de-discrimination-et-promotion-de-la-diversite.html"
-- title: "La gestion de projet dans le secteur social (collectivités, associations et entreprises de l'ESS)"
-  duration: "2 jours"
-  place: "En présentiel"
-  introduction: "Les organisations publiques, les structures du secteur social, les associations et entreprises de l’ESS sont
-amenées à développer de plus en plus de projets soit dans le cadre de demandes spécifiques (appel à
-projets, appel d’offres, appel à manifestation d’intérêt) soit dans le cadre de leur processus interne
-d’innovation sociale. Dans des structures déjà établies depuis longtemps, ce mode de faire vient
-interroger les organisations : quelle méthode appliquer ? Quelles ressources humaines impliquer ? quelle
-organisation déployer ? quel pilotage de projet adopter ..? Comment faire vivre la transversalité et
-l’interdisciplinarité, incontournable à tous projets complexes ?
-Votre structure ne peut vous adjoindre un spécialiste de la question ou une direction spécifique mais
-vous avez besoin de mobiliser l’ensemble des ressources humaines pour mener à bien un projet.
-Copas propose, dans sa logique coopérative et participative, d’amener l’ensemble des équipes à
-s’emparer de la question de la conception et du développement de projet, dans le cadre d’une
-formation action"
-  targeted_people: "Chefs de projets, cadres, chargés de
-mission, toute personne en charge
-d’une équipe projet ou souhaitant
-évoluer dans des fonctions de gestion
-de projet. Débutant ou débutant sur la
-méthodologie en mode agile."
-  goals:
-    - "Identifier les composantes principales de la gestion de projet"
-    - "Initier le changement"
-    - "Analyser son organisation"
-    - "Maîtriser les outils de gestion de projet"
-    - "Formaliser des objectifs accessibles, réalistes dans un temps limité"
-    - "Communiquer sur un projet"
-  prerequisites: "Aucune connaissance particulière"
-  key_words: "sociologie des organisations – outillage – approche réflexive – gestion de projet créative – idéation – méthode agile – méthode Scrum – design thinking - coopération"
-  validation: "Un bilan et une évaluation de la formation seront effectués avec les stagiaires à la fin de la formation"
-  technology: "Apports pédagogiques
-              - Études de cas concrets apportés par les stagiaires ou par les formateurs
-              - Mises en situation
-              - Supports de formation
-              - Outils (canevas, grilles, etc.)
-              Les différents outils seront remis sur Clef USB. "
-  leaflet: "https://res.cloudinary.com/copas/image/upload/v1623155002/Plaquettes/Formation_Gestion_projet.pdf"
-  link: "/metiers/formations/gestion-de-projet-dans-le-secteur-social.html"
-
+  link: "/metiers/formations/lutte-contre-les-discriminations.html"
