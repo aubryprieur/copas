@@ -1,7 +1,12 @@
-<% data.intras.each do |formation| %>
+<% data.intras.each do |intra| %>
   <div class="text__intra">
     <div class="intra__card">
-      <div class="clk"><%= formation.title %></div>
+      <div class="intra__title"><%= intra.title %></div>
+      <ul>
+        <% intra.formation_title.each do |f| %>
+          <li><%= f %></li>
+        <% end %>
+      </ul>
     </div>
   </div>
 <% end %>

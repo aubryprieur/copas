@@ -1,4 +1,20 @@
-- title: "Élaborer un projet éducatif de territoire : repères et méthode"
-- title: "S'approprier les principes d'action du Développement Social  et anticiper les conditions de leur mise en oeuvre."
-- title: "Concevoir et piloter une démarche de concertation"
-- title: "Sensibilisation à la participation citoyenne et au budget participatif"
+- title: "Politique éducative"
+  formation_title:
+    - "Élaborer un projet éducatif de territoire : repères et méthode"
+- title: "Développement social"
+  formation_title:
+    - "S'approprier les principes d'action du Développement Social  et anticiper les conditions de leur mise en oeuvre."
+- title: "Concertation et participation"
+  formation_title:
+    - "La participation des habitants, moteur de l’action territoriale : anticiper les changements, adapter les pratiques"
+    - "Concevoir et piloter une démarche de concertation"
+    - "Sensibilisation à la participation citoyenne et au budget participatif"
+    - "Développer ses capacités d’animation pour conduire des projets : techniques d’animation participative et intelligence collective"
+- title: "Management / encadrement / pilotage"
+  formation_title:
+    - "Accompagner des personnes aux besoins spécifiques ou « piloter par le Sens »"
+    - "Coordinateur de parcours, coordinateur de projets"
+    - "Prendre en main une nouvelle fonction de direction"
+    - "Mettre en œuvre une démarche d’amélioration continue de la qualité (DACQ) au sein de vos services"
+    - "Ethique, bientraitance et droits des personnes"
+

@@ -89,9 +89,9 @@ summary::-webkit-details-marker {
 }
 
 .intra__card {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  // display: flex;
+  // justify-content: space-between;
+  // align-items: center;
   font-weight: lighter;
   list-style: disclosure-closed;
   background-color: #F0F0F0;
@@ -99,6 +99,9 @@ summary::-webkit-details-marker {
   margin: 10px 0;
   padding: 5px 15px;
   box-shadow: 0.5px solid #aaa;
+  .intra__title {
+    text-align: left;
+  }
 }
 
 .link__formation {
@@ -112,3 +115,7 @@ summary::-webkit-details-marker {
   color: grey !important;
   font-size: 18px !important;
   }
+
+.additional_documents_link {
+  color: grey !important;
+}
