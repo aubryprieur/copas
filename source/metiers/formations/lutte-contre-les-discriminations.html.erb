@@ -47,7 +47,11 @@ title: COPAS - Lutte contre les discriminations
           <div class="clk"><i class="fas fa-chevron-right"></i> Mode de validation des acquis</div>
         </summary>
         <section>
-          <%= data.formations[0].validation %>
+          <ul>
+            <% data.formations[0].validation.each do |f| %>
+              <li><%= f %></li>
+            <% end %>
+          </ul>
         </section>
       </details>
       <details>
@@ -68,10 +72,18 @@ title: COPAS - Lutte contre les discriminations
       </details>
       <details>
         <summary>
-          <div class="clk"><i class="fas fa-chevron-right"></i> Télécharger la plaquette de formation</div>
+          <div class="clk"><i class="fas fa-chevron-right"></i> Plaquette de formation</div>
         </summary>
         <section>
-          <a href= <%= data.formations[0].leaflet %> target="_blank" class="plaquette"><i class="fa fa-download"></i> Lien de téléchargement de la plaquette</a>
+          <a href= <%= data.formations[0].leaflet %> target="_blank" class="plaquette"><i class="fa fa-download"></i> Téléchargez de la plaquette de formation</a>
+        </section>
+      </details>
+      <details>
+        <summary>
+          <div class="clk"><i class="fas fa-chevron-right"></i> Bulletin d'inscription</div>
+        </summary>
+        <section>
+          <a href= <%= data.formations[0].subscription %> target="_blank" class="plaquette"><i class="fa fa-download"></i> Téléchargez le bulletin d'inscription</a>
         </section>
       </details>
     </div>

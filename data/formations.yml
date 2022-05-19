@@ -1,7 +1,7 @@
 - title: "Lutte contre les discriminations"
   duration: "2 jours"
-  # place: "En présentiel"
-  introduction : "Cette formation vise à renforcer l’égalité de traitement des acteur·trice·s des territoires au travers l’amélioration de la prise en compte de la prévention des discriminations, d’une part, et du développement d’une culture et une vision communes de la lutte contre les discriminations, de l’autre."
+  price: "600€"
+  introduction : "Cette formation vise à renforcer l’égalité de traitement des acteur·trice·s des territoires au travers de l’amélioration de la prise en compte de la prévention des discriminations, d’une part, et du développement d’une culture et une vision communes de la lutte contre les discriminations, de l’autre."
   targeted_people: "Cadres associatifs, agents des collectivités"
   goals:
     - "Identifier ce que recouvrent les discriminations sur le plan sociologique (causes, formes, conséquences, …)"
@@ -10,7 +10,10 @@
     - "Caractériser leur place et leur rôle en matière de lutte contre les discriminations"
   prerequisites: "Aucune connaissance particulière"
   key_words: "Discriminations - Inégalités - Stigmatisation - Droit - Sociologie"
-  validation: "Un bilan et une évaluation de la formation seront effectués avec les stagiaires à la fin de la formation"
+  validation:
+    - "Une évaluation des acquis en amont et en aval de la formation sera effectuée par le formateur."
+    - "Une évaluation de votre satisfaction sur la formation sera réalisée en fin de formation et à 6 mois."
   technology: "Apports pédagogiques - Études de cas concrets apportés - Mises en situation - Livret de formation - Les différents outils seront transmis au format numérique"
-  leaflet: "https://res.cloudinary.com/copas/image/upload/v1623155002/Plaquettes/Formation_Budget_Participatif.pdf"
+  leaflet: "https://res.cloudinary.com/copas/image/upload/v1652977928/documents-formations/COPAS_FORM_LCD_Fiche_Site.pdf"
+  subscription: "https://res.cloudinary.com/copas/image/upload/v1652979395/documents-formations/COPAS_Bulletin_d_inscription_Formation.pdf"
   link: "/metiers/formations/lutte-contre-les-discriminations.html"
