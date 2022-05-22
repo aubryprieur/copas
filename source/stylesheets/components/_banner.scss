@@ -75,7 +75,7 @@
 
 @media (max-width: 576px) {
       .banner {
-        padding-top: 180px;
+        // padding-top: 50px;
         h1 {
           font-size: 2em;
         }
@@ -84,16 +84,19 @@
 
 
 @media (max-width: 414px) {
-      .banner {
-        h1 {
-          vertical-align: middle;
-          font-size: 3em;
-          padding-top: 350px;
+  .banner {
+    h1 {
+      vertical-align: middle;
+      font-size: 2em;
+      padding-top: 0px;
+      margin-top : 0px;
+      margin-bottom: 20px;
 
-        }
-          .banner-introduction {
-              visibility: hidden;
-          }
-      }
+    }
+    .banner-introduction {
+      // visibility: hidden;
+      display: none;
+    }
+  }
     }
 
