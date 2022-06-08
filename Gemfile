@@ -10,6 +10,7 @@ gem "nokogiri", ">= 1.11.0"
 gem "kramdown", ">= 2.3.0"
 gem "rack", ">= 2.2.3"
 gem "activesupport", ">= 5.2.4.3"
+gem 'builder', '~> 3.2', '>= 3.2.4'
 
 # Assets
 gem 'font-awesome-middleman'

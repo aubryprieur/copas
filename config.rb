@@ -23,3 +23,7 @@ activate :deploy do |deploy|
   deploy.build_before = true
   deploy.deploy_method = :git
 end
+
+config[:host] = "https://copas.coop"
+config[:ignore_sitemap_regex] = %r[\.(css|js|eot|svg|woff|ttf|png|jpg|jpeg|gif|keep)$]
+
