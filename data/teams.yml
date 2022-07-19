@@ -36,7 +36,7 @@
 - first_name: "Samuel"
   last_name: "Thyrion"
   picture: "https://res.cloudinary.com/copas/image/upload/c_scale,w_150/v1588603516/Equipe/SamuelThyrion.jpg"
-  description: "Consultant associé & gérant"
+  description: "Consultant associé"
   link: "team/samuel-thyrion.html"
   email: "samuel.thyrion@copas.coop"
   phone: "06 65 56 69 57"
