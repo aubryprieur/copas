@@ -1,0 +1,63 @@
+.sliderContainer {
+  overflow: hidden;
+  width: 100vw;
+  height: 200px;
+}
+
+.logoSlider>.ref_essms_card {
+  min-width: 300px;
+  height: 150px;
+  margin: 15px;
+  background-color: #F4F4F4;
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 10px;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: space-around;
+  position: relative;
+
+}
+
+.ref_essms_card>p {
+  color: #999999;
+  margin-bottom: 0;
+  font-size: 16px;
+  max-width: 300px;
+  }
+
+.ref_essms_card_client {
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.ref_essms_card_description {
+  font-weight: lighter;
+  position: absolute;
+  top: 40px;
+  left: 10px;
+}
+
+.ref_essms_card_year {
+  font-weight: lighter;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.logoSlider {
+  display: flex;
+  animation: slideshow 15s infinite linear;
+  animation-direction: alternate;
+}
+
+@keyframes slideshow {
+  from {
+    transform: translate(300px);
+  }
+  to {
+    transform: translate(-2000px);
+  }
+}
