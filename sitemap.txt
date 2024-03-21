@@ -1,10 +1,11 @@
-https://copas.coop/metiers/formations/informations.html
+https://copas.coop/about.html
 https://copas.coop/mentions-legales.html
 https://copas.coop/sitemap.txt
 https://copas.coop/contact.html
 https://copas.coop/metiers/formations/lutte-contre-les-discriminations.html
-https://copas.coop/
+https://copas.coop/metiers/formations/informations.html
 https://copas.coop/metiers/formations/reecriture-de-son-contrat-de-ville.html
+https://copas.coop/metiers/formations/s-engager-dans-le-cpom-et-l-eprd.html
 https://copas.coop/metiers/developpement-numerique.html
 https://copas.coop/metiers/formation.html
 https://copas.coop/metiers/evaluation-de-la-qualite-des-essms.html
@@ -27,7 +28,7 @@ https://copas.coop/team/marie-peretti-ndiaye.html
 https://copas.coop/team/samuel-thyrion.html
 https://copas.coop/team/aubry-prieur.html
 https://copas.coop/merci.html
-https://copas.coop/about.html
+https://copas.coop/
 https://copas.coop/stylesheets/pages/mentions-legales
 https://copas.coop/assets/bootstrap/glyphicons-halflings-regular-ca35b697.woff2
 
