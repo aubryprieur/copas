@@ -1,27 +1,27 @@
 ---
-title: COPAS - Lutte contre les discriminations
+title: COPAS - S’engager dans le CPOM et l’EPRD
 ---
 <%= partial "layouts/navbar2" %>
 <div class="ground">
   <div class="container">
     <div class="ground-content">
       <h1>
-        <%= data.formations[0].title %>
+        <%= data.formations[2].title %>
       </h1>
       <p>
-        <%= data.formations[0].introduction %>
+        <%= data.formations[2].introduction %>
       </p>
       <h2>
         Programme de formation
       </h2>
-      <!-- <p>Prochaine session : <%= data.formations[0].session %> </p> -->
+      <p>Prochaine session : <%= data.formations[2].session %> </p>
       <details>
         <summary>
           <div class="clk"><i class="fas fa-chevron-right"></i> Objectifs</div>
         </summary>
         <section>
           <ul>
-            <% data.formations[0].goals.each do |f| %>
+            <% data.formations[2].goals.each do |f| %>
               <li><%= f %></li>
             <% end %>
           </ul>
@@ -32,7 +32,7 @@ title: COPAS - Lutte contre les discriminations
           <div class="clk"><i class="fas fa-chevron-right"></i> Public cible</div>
         </summary>
         <section>
-          <%= data.formations[0].targeted_people %>
+          <%= data.formations[2].targeted_people %>
         </section>
       </details>
       <details>
@@ -40,7 +40,7 @@ title: COPAS - Lutte contre les discriminations
           <div class="clk"><i class="fas fa-chevron-right"></i> Pré-requis</div>
         </summary>
         <section>
-          <%= data.formations[0].prerequisites %>
+          <%= data.formations[2].prerequisites %>
         </section>
       </details>
       <details>
@@ -49,7 +49,7 @@ title: COPAS - Lutte contre les discriminations
         </summary>
         <section>
           <ul>
-            <% data.formations[0].validation.each do |f| %>
+            <% data.formations[2].validation.each do |f| %>
               <li><%= f %></li>
             <% end %>
           </ul>
@@ -60,7 +60,7 @@ title: COPAS - Lutte contre les discriminations
           <div class="clk"><i class="fas fa-chevron-right"></i> Moyens pédagogiques et techniques</div>
         </summary>
         <section>
-          <%= data.formations[0].technology %>
+          <%= data.formations[2].technology %>
         </section>
       </details>
       <details>
@@ -68,23 +68,23 @@ title: COPAS - Lutte contre les discriminations
           <div class="clk"><i class="fas fa-chevron-right"></i> Mots clés</div>
         </summary>
         <section>
-          <%= data.formations[0].key_words %>
+          <%= data.formations[2].key_words %>
         </section>
       </details>
-      <!--<details>
+      <details>
         <summary>
           <div class="clk"><i class="fas fa-chevron-right"></i> Plaquette de formation</div>
         </summary>
         <section>
-          <a href= <%= data.formations[0].leaflet %> target="_blank" class="plaquette"><i class="fa fa-download"></i> Téléchargez de la plaquette de formation</a>
+          <a href= <%= data.formations[2].leaflet %> target="_blank" class="plaquette"><i class="fa fa-download"></i> Téléchargez de la plaquette de formation</a>
         </section>
-      </details> -->
+      </details>
       <details>
         <summary>
           <div class="clk"><i class="fas fa-chevron-right"></i> Bulletin d'inscription</div>
         </summary>
         <section>
-          <a href= <%= data.formations[0].subscription %> target="_blank" class="plaquette"><i class="fa fa-download"></i> Téléchargez le bulletin d'inscription</a>
+          <a href= <%= data.formations[2].subscription %> target="_blank" class="plaquette"><i class="fa fa-download"></i> Téléchargez le bulletin d'inscription</a>
         </section>
       </details>
     </div>
