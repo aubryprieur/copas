@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://copas.coop/about.html</loc>
+    <loc>https://copas.coop/metiers/formations/informations.html</loc>
   </url>
   <url>
     <loc>https://copas.coop/mentions-legales.html</loc>
@@ -16,7 +16,7 @@
     <loc>https://copas.coop/metiers/formations/lutte-contre-les-discriminations.html</loc>
   </url>
   <url>
-    <loc>https://copas.coop/metiers/formations/informations.html</loc>
+    <loc>https://copas.coop/</loc>
   </url>
   <url>
     <loc>https://copas.coop/metiers/formations/reecriture-de-son-contrat-de-ville.html</loc>
@@ -79,9 +79,6 @@
     <loc>https://copas.coop/team/dalila-bahmed.html</loc>
   </url>
   <url>
-    <loc>https://copas.coop/team/marie-peretti-ndiaye.html</loc>
-  </url>
-  <url>
     <loc>https://copas.coop/team/samuel-thyrion.html</loc>
   </url>
   <url>
@@ -91,7 +88,7 @@
     <loc>https://copas.coop/merci.html</loc>
   </url>
   <url>
-    <loc>https://copas.coop/</loc>
+    <loc>https://copas.coop/about.html</loc>
   </url>
   <url>
     <loc>https://copas.coop/stylesheets/pages/mentions-legales</loc>
