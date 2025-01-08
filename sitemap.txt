@@ -1,9 +1,9 @@
-https://copas.coop/metiers/formations/informations.html
+https://copas.coop/about.html
 https://copas.coop/mentions-legales.html
 https://copas.coop/sitemap.txt
 https://copas.coop/contact.html
 https://copas.coop/metiers/formations/lutte-contre-les-discriminations.html
-https://copas.coop/
+https://copas.coop/metiers/formations/informations.html
 https://copas.coop/metiers/formations/reecriture-de-son-contrat-de-ville.html
 https://copas.coop/metiers/formations/s-engager-dans-le-cpom-et-l-eprd.html
 https://copas.coop/metiers/developpement-numerique.html
@@ -16,6 +16,7 @@ https://copas.coop/metiers/animation-interventions-publiques.html
 https://copas.coop/terrains/dev-social-politique-ville.html
 https://copas.coop/terrains/action-sociale-medico-sociale.html
 https://copas.coop/terrains/lutte-discriminations-inegalites.html
+https://copas.coop/terrains/service-public-petite-enfance.html
 https://copas.coop/terrains/economie-sociale-solidaire.html
 https://copas.coop/terrains/politique-educative.html
 https://copas.coop/terrains/demarches-participatives.html
@@ -27,7 +28,7 @@ https://copas.coop/team/dalila-bahmed.html
 https://copas.coop/team/samuel-thyrion.html
 https://copas.coop/team/aubry-prieur.html
 https://copas.coop/merci.html
-https://copas.coop/about.html
+https://copas.coop/
 https://copas.coop/stylesheets/pages/mentions-legales
 https://copas.coop/assets/bootstrap/glyphicons-halflings-regular-ca35b697.woff2
 
