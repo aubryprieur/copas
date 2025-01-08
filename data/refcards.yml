@@ -159,6 +159,14 @@ actionsociale:
   description: "EPDSAE Nord, Sauvegarde des Yvelines, Abej-Coquerel, Sauvegarde du Nord et ADSSEAD, ALC-Nice, VISA CHRS"
 
 politiqueeducative:
+- picture: "https://res.cloudinary.com/copas/image/upload/v1736348625/Logos%20clients/Est-Somme.jpg"
+  client: "Communauté de communes Est-Somme"
+  title: "Diagnostic Petite enfance - Parentalité."
+  description: ""
+- picture: "https://res.cloudinary.com/copas/image/upload/v1736348624/Logos%20clients/Quievrechain.png"
+  client: "Communes de quiévrechain et Crespin"
+  title: "Diagnostic et accompagnement à la création du service public de la petite enfance"
+  description: ""
 - picture: "https://res.cloudinary.com/copas/image/upload/v1586873256/Logos%20clients/capso.png"
   client: "Communauté d'Agglomération de Saint-Omer"
   title: "Etude de redéploiement du PRE sur les territoires prioritaires"
