@@ -1,14 +1,7 @@
-// Import page-specific CSS files here.
 @import "about";
 @import "cv";
 @import "grounds";
 @import "formation";
 @import "mentions-legales";
 @import "evaluation-essms";
-
-
-.plaquette:hover{
-  color: #777777;
-}
-
-
+@import "plaquette";
