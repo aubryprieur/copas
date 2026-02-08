@@ -5,24 +5,174 @@ title: COPAS - Développement numérique
 <div class="ground">
   <div class="container">
     <div class="ground-content">
-      <h1>
-        DÉVELOPPEMENT DE SOLUTIONS NUMÉRIQUES
-      </h1>
+
+      <h1>DATA TERRITORIALE & CONCERTATION CITOYENNE</h1>
+
       <p>
-        Vecteur de <strong>transformations managériales </strong>(développement du télétravail, du travail collaboratif, management participatif), de modification des <strong>formes d’intermédiation </strong>(économie collaborative), de <strong>remobilisation des citoyens quant à la participation au débat démocratique </strong>(plateforme de débat citoyen, de consultation, de budget participatif), le numérique transforme, accélère et modifie toute forme d’organisation avec moins de hiérarchie et plus d’horizontalité.
-      </p>
-      <h2>
-        Notre approche
-      </h2>
-      <p>
-        <strong>Les outils numériques renforcent la coopération pour atteindre des objectifs communs</strong>. COPAS accompagne les organisations (privé, publique), les collectifs dans la mise en place de processus coopératif et participatif en lien avec des outils numériques adaptés.
+        Comprendre un territoire et associer ses habitants aux décisions : deux enjeux indissociables. COPAS développe des <strong>solutions numériques</strong> qui répondent à ce double besoin. D'un côté, des <strong>observatoires de données</strong> hébergés pour exploiter les sources publiques (INSEE, CAF, ANCT, data.gouv…) et produire des indicateurs fiables, visuels et comparables. De l'autre, des <strong>plateformes de concertation</strong> pour organiser la participation citoyenne de manière transparente et structurée.
       </p>
       <p>
-        Nous travaillons avec la plateforme open-source de participation <%= link_to "DECIDIM", "https://decidim.org/", target: "_blank" %> pour la mise en oeuvre de budgets participatifs, de consultations, de concertations. Nous conjuguons <strong>présence sur le terrain</strong> (réunion de présentation, ateliers créatif, animation pour le vote…) et <strong>présence numérique</strong> (assurer la transparence du processus) pour favoriser la compréhension de tous, pour développer et garantir la participation.
+        De la donnée brute à la décision partagée, nous accompagnons les collectivités, les institutions et les collectifs dans la mise en place d'outils qui <strong>éclairent le diagnostic</strong> et <strong>renforcent la participation</strong>.
       </p>
+
+      <hr class="section-separator">
+
+      <!-- ========================== -->
+      <!-- OBSERVATOIRE DE DONNÉES    -->
+      <!-- ========================== -->
+
+      <h2>OBSERVATOIRE DE DONNÉES TERRITORIALES</h2>
+
+      <p>
+        Les données publiques sont nombreuses mais difficiles d'accès : tableaux volumineux, sources dispersées, formats peu lisibles. COPAS conçoit des <strong>solutions hébergées</strong> qui transforment ces données brutes en <strong>indicateurs clés</strong>, <strong>cartes interactives</strong> et <strong>tableaux de comparaison</strong>, accessibles sans compétence technique particulière.
+      </p>
+
+      <!-- Slider Avant / Après -->
+      <div class="ba-section">
+        <p class="ba-instruction"><i class="fa-solid fa-arrows-left-right"></i>&nbsp; Glissez pour comparer : du tableur Excel à la carte interactive</p>
+        <div class="ba-slider" id="baSlider">
+          <%= image_tag "capture_excel.jpg", alt: "Données brutes en tableau Excel", class: "ba-before" %>
+          <%= image_tag "capture_carte.jpg", alt: "Carte interactive des familles monoparentales", class: "ba-after", id: "baAfter" %>
+          <span class="ba-label ba-label-before"><i class="fa-solid fa-table"></i>&nbsp; Avant</span>
+          <span class="ba-label ba-label-after">Après &nbsp;<i class="fa-solid fa-map"></i></span>
+          <div class="ba-handle" id="baHandle"></div>
+          <input type="range" min="0" max="100" value="50" id="baRange">
+        </div>
+      </div>
+
+      <p>
+        Comparez les données à chaque <strong>échelon territorial</strong>, de l'IRIS à la France entière :
+      </p>
+
+      <div class="geo-levels">
+        <span class="geo-tag">IRIS</span>
+        <span class="geo-tag">Commune</span>
+        <span class="geo-tag">EPCI</span>
+        <span class="geo-tag">Département</span>
+        <span class="geo-tag">Région</span>
+        <span class="geo-tag">France</span>
+      </div>
+
+      <div class="sources-row">
+        <p class="sources-label">Sources de données intégrées</p>
+        <span class="source-name">INSEE</span>
+        <span class="source-name">CAF</span>
+        <span class="source-name">data.gouv</span>
+        <span class="source-name">ANCT</span>
+        <span class="source-name">DREES</span>
+        <span class="source-name">Filosofi</span>
+      </div>
+
+      <div class="row avantages-row">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="avantage-item">
+            <div class="avantage-icon icon-yellow"><i class="fa-solid fa-database"></i></div>
+            <h3>Sources centralisées</h3>
+            <p>Plus besoin de chercher les données sur différents sites. Les sources INSEE, CAF, ANCT sont agrégées et prêtes à l'emploi.</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="avantage-item">
+            <div class="avantage-icon icon-orange"><i class="fa-solid fa-calculator"></i></div>
+            <h3>Indicateurs calculés</h3>
+            <p>Taux de pauvreté, revenus médians, familles monoparentales… Les indicateurs sont calculés et comparables à chaque échelon.</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="avantage-item">
+            <div class="avantage-icon icon-yellow"><i class="fa-solid fa-map-location-dot"></i></div>
+            <h3>Cartographie interactive</h3>
+            <p>Visualisez les disparités territoriales grâce aux cartes choroplèthes et tableaux de comparaison multi-échelles.</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="avantage-item">
+            <div class="avantage-icon icon-orange"><i class="fa-solid fa-clock-rotate-left"></i></div>
+            <h3>Suivi dans le temps</h3>
+            <p>Suivez l'évolution des indicateurs année après année. Les mises à jour sont assurées grâce à notre veille sur les publications officielles.</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="avantage-item">
+            <div class="avantage-icon icon-yellow"><i class="fa-solid fa-chart-column"></i></div>
+            <h3>Représentations clé en main</h3>
+            <p>Graphiques, cartes et tableaux exportables pour vos diagnostics, rapports et documents de pilotage.</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="avantage-item">
+            <div class="avantage-icon icon-orange"><i class="fa-solid fa-server"></i></div>
+            <h3>Solution hébergée</h3>
+            <p>Votre observatoire est hébergé et maintenu. Accédez à vos données depuis n'importe quel navigateur, sans installation.</p>
+          </div>
+        </div>
+      </div>
+
+      <hr class="section-separator">
+
+      <!-- ========================== -->
+      <!-- DECIDIM                     -->
+      <!-- ========================== -->
+
+      <h2>CONCERTATION CITOYENNE AVEC DECIDIM</h2>
+
+      <p>
+        Nous travaillons avec la plateforme open-source de participation <a href="https://decidim.org/" target="_blank">DECIDIM</a> pour la mise en œuvre de budgets participatifs, de consultations et de concertations.
+      </p>
+
+      <div class="row decidim-row">
+        <div class="col-xs-12 col-md-6 decidim-text">
+          <p>
+            Budget participatif, consultation sur un projet urbain, plan stratégique de territoire… Decidim offre un cadre <strong>transparent et outillé</strong> pour organiser la participation citoyenne à grande échelle.
+          </p>
+          <p>
+            Nous conjuguons <strong>présence sur le terrain</strong> — réunions de présentation, ateliers créatifs, animation pour le vote — et <strong>présence numérique</strong> — transparence du processus — pour favoriser la compréhension de tous et garantir la participation.
+          </p>
+
+          <div style="margin-top: 25px;">
+            <div class="decidim-feature">
+              <div class="decidim-feature-icon"><i class="fa-solid fa-comments"></i></div>
+              <span><strong>Concertations</strong> — Recueillez les avis, organisez le débat et restituez les résultats.</span>
+            </div>
+            <div class="decidim-feature">
+              <div class="decidim-feature-icon"><i class="fa-solid fa-coins"></i></div>
+              <span><strong>Budgets participatifs</strong> — Permettez aux citoyens de proposer et voter pour des projets.</span>
+            </div>
+            <div class="decidim-feature">
+              <div class="decidim-feature-icon"><i class="fa-solid fa-people-group"></i></div>
+              <span><strong>Assemblées</strong> — Structurez les instances de gouvernance participative.</span>
+            </div>
+            <div class="decidim-feature">
+              <div class="decidim-feature-icon"><i class="fa-solid fa-pen-to-square"></i></div>
+              <span><strong>Pétitions & propositions</strong> — Offrez un espace d'initiative citoyenne.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-md-6">
+          <div class="decidim-visual">
+            <%= image_tag "decidim.png", alt: "Plateforme Decidim", style: "max-height: 500px; object-fit: cover; object-position: top;" %>
+        </div>
+      </div>
+
+      <div class="cta-contact">
+        <a href="/contact.html"><i class="fa-solid fa-envelope"></i>&nbsp; Nous contacter</a>
+      </div>
+
     </div>
   </div>
   <div class="references">
     <%= partial "layouts/cv-card", :locals => { name: data.refcards.numerique} %>
   </div>
+
+  <script>
+    var range = document.getElementById('baRange');
+    var afterImg = document.getElementById('baAfter');
+    var handle = document.getElementById('baHandle');
+    range.addEventListener('input', function() {
+      var val = this.value;
+      afterImg.style.clipPath = 'inset(0 0 0 ' + val + '%)';
+      handle.style.left = val + '%';
+    });
+  </script>
 </div>
