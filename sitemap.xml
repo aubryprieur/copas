@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://copas.coop/</loc>
+    <loc>https://copas.coop/404.html</loc>
   </url>
   <url>
     <loc>https://copas.coop/mentions-legales.html</loc>
@@ -70,7 +70,7 @@
     <loc>https://copas.coop/sitemap.xml</loc>
   </url>
   <url>
-    <loc>https://copas.coop/404.html</loc>
+    <loc>https://copas.coop/</loc>
   </url>
   <url>
     <loc>https://copas.coop/team/marianne-pladys.html</loc>

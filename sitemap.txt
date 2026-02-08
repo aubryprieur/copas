@@ -1,4 +1,4 @@
-https://copas.coop/
+https://copas.coop/404.html
 https://copas.coop/mentions-legales.html
 https://copas.coop/sitemap.txt
 https://copas.coop/contact.html
@@ -21,7 +21,7 @@ https://copas.coop/terrains/economie-sociale-solidaire.html
 https://copas.coop/terrains/politique-educative.html
 https://copas.coop/terrains/demarches-participatives.html
 https://copas.coop/sitemap.xml
-https://copas.coop/404.html
+https://copas.coop/
 https://copas.coop/team/marianne-pladys.html
 https://copas.coop/team/said-bechrouri.html
 https://copas.coop/team/dalila-bahmed.html
