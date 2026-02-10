@@ -3,30 +3,119 @@ title: COPAS - Aubry Prieur - Consultant et associé
 ---
 <%= partial "layouts/navbar2" %>
 <div>
-  <div id="cv">
-    <div class="about-content">
-      <ul class="list-inline">
-        <% data.users.each do |user| %>
-        <li>
-          <%= image_tag "https://res.cloudinary.com/copas/image/upload/c_scale,w_150/v1588603514/Equipe/AubryPrieur.jpg", class: "img-circle" %>
-          <h2><%= user.name %></h2>
-          <p>
-            <% link_to "https://github.com/#{user.github_nickname}", target: "_blank" do %>
-            <i class="fab fa-github"></i> <%= user.github_nickname %>
-            <% end %>
-          </p>
-          <p><a href="mailto:aubry.prieur@copas.coop"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;aubry.prieur@copas.coop</a></p>
-          <p><i class="fa fa-phone"></i>03 61 50 71 34 </p>
-        </li>
-        <% end %>
-      </ul>
-      <div class="row">
-        <div class="col-md-offset-2 col-md-8 cv-description">
-          <p>Diplômé d’un Master 2 <strong>"Economie de la décision publique"</strong> (Lille 1) et d'un Master 2 <strong>"Management et administration d’entreprise"</strong> (IAE Lille). Développeur web fullstack (Le Wagon). </p>
-          <p>A copas depuis 2007, il intervient sur des champs et métiers multiples.</p>
-          <p>Il accompagne dans la mise en oeuvre de projet ou de politique publique dans les domaines de la <strong>politique de la ville</strong>, l'<strong>éducation</strong>, la<strong> petite enfance</strong>,  la <strong>lutte contre les discriminations</strong>, l'<strong>action sociale</strong> et la <strong>participation des habitants</strong>. Plus particulièrement, il accompagne des équipes sur la <strong>gestion de projet</strong>, conduit des <strong>processus de concertation et de participation</strong> (budget participatif par exemple), réalise des <strong>analyses de besoins sociaux</strong> ou des <strong>projets sociaux de territoire</strong> et conçoit des études de faisabilité et d'opportunité de <strong>développement de tiers-lieux ESS</strong>. Il accompagne également à l'élaboration de <strong>projets associatif et stratégique</strong> (Mission Locale, Centres sociaux)</p>
-          <p>Il mène des diagnostics, profils <strong>statistiques</strong> de territoire, étude quatitative et qualitative de projets ou de politiques/programmes/dispositifs, et réalise des <strong>enquêtes</strong> (en ligne ou présentiel)...</p>
+  <div id="cv" id-aubry="true">
+    <div id="cv-aubry">
+      <div class="about-content">
+        <ul class="list-inline">
+          <% data.users.each do |user| %>
+          <li>
+            <%= image_tag "https://res.cloudinary.com/copas/image/upload/c_scale,w_150/v1588603514/Equipe/AubryPrieur.jpg", class: "img-circle" %>
+            <h2><%= user.name %></h2>
+            <p>
+              <% link_to "https://github.com/#{user.github_nickname}", target: "_blank" do %>
+              <i class="fab fa-github"></i> <%= user.github_nickname %>
+              <% end %>
+            </p>
+            <p><a href="mailto:aubry.prieur@copas.coop"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;aubry.prieur@copas.coop</a></p>
+            <p><i class="fa fa-phone"></i>03 61 50 71 34 </p>
+          </li>
+          <% end %>
+        </ul>
+
+        <!-- Introduction -->
+        <div class="row">
+          <div class="col-md-offset-2 col-md-8 cv-description">
+            <p>Diplômé d'un Master 2 <strong>Économie de la décision publique</strong> (Université Lille 1) et d'un Master 2 <strong>Management et administration des entreprises</strong> (IAE Lille), il est également <strong>développeur web full-stack</strong> (Le Wagon).</p>
+            <p>Membre de COPAS depuis 2007, il intervient sur l'ensemble du cycle des politiques publiques et des projets territoriaux, de l'analyse des besoins à l'évaluation, en passant par la concertation, l'accompagnement stratégique et la mise en œuvre opérationnelle.</p>
+          </div>
         </div>
+
+        <!-- Expertises -->
+        <div class="row aubry-expertises">
+          <div class="col-md-offset-1 col-md-10">
+            <h3 class="aubry-section-title">Domaines d'expertise</h3>
+            <div class="row aubry-expertises-grid">
+
+              <div class="col-sm-6 col-md-4">
+                <div class="aubry-card">
+                  <div class="aubry-card-icon"><i class="fas fa-chart-bar"></i></div>
+                  <h4>Évaluation</h4>
+                  <p>Évaluation de politiques publiques, de dispositifs et de projets : efficacité, effets, impacts, pertinence, durabilité</p>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4">
+                <div class="aubry-card">
+                  <div class="aubry-card-icon"><i class="fas fa-users"></i></div>
+                  <h4>Concertation & participation</h4>
+                  <p>Démarches de concertation en présentiel et en ligne : consultations citoyennes, budgets participatifs, démarches multi-acteurs</p>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4">
+                <div class="aubry-card">
+                  <div class="aubry-card-icon"><i class="fas fa-poll"></i></div>
+                  <h4>Études & enquêtes</h4>
+                  <p>Études quantitatives et qualitatives, enquêtes et sondages auprès de bénéficiaires, d'habitants ou de publics fragilisés</p>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4">
+                <div class="aubry-card">
+                  <div class="aubry-card-icon"><i class="fas fa-map-marked-alt"></i></div>
+                  <h4>Diagnostics territoriaux</h4>
+                  <p>Analyses de besoins sociaux (ABS), données statistiques, profils territoriaux</p>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4">
+                <div class="aubry-card">
+                  <div class="aubry-card-icon"><i class="fas fa-laptop-code"></i></div>
+                  <h4>Outils numériques</h4>
+                  <p>Mise en place de plateformes participatives, observatoires de territoire et tableaux de bord</p>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4">
+                <div class="aubry-card">
+                  <div class="aubry-card-icon"><i class="fas fa-compass"></i></div>
+                  <h4>Élaboration de projets stratégiques</h4>
+                  <p>Accompagnement à la création ou au renouvellement de projets associatifs et stratégiques</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Champs d'intervention -->
+        <div class="row aubry-interventions">
+          <div class="col-md-offset-2 col-md-8">
+            <h3 class="aubry-section-title">Champs d'intervention</h3>
+            <div class="aubry-tags">
+              <span class="aubry-tag">Petite enfance & parentalité</span>
+              <span class="aubry-tag">Jeunesse</span>
+              <span class="aubry-tag">Politique de la ville</span>
+              <span class="aubry-tag">Centres sociaux - Espaces de vie sociale (EVS)</span>
+              <span class="aubry-tag">CCAS</span>
+              <span class="aubry-tag">Bailleur social</span>
+              <span class="aubry-tag">Association</span>
+              <span class="aubry-tag">Mission Locale</span>
+              <span class="aubry-tag">Cité Éducative</span>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Positionnement -->
+        <div class="row aubry-positionnement">
+          <div class="col-md-offset-2 col-md-8">
+            <div class="aubry-quote">
+              <p>Son positionnement se caractérise par une <strong>forte polyvalence</strong>, articulant étude, diagnostic, évaluation, accompagnement à la réflexion stratégique et appui à la mise en œuvre, avec une attention constante portée au <strong>contact direct</strong> avec les habitants, bénéficiaires, élus, professionnels et partenaires.</p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
