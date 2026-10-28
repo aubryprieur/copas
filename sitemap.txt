@@ -1,6 +1,7 @@
-https://copas.coop/
+https://copas.coop/sitemap.xml
 https://copas.coop/mentions-legales.html
 https://copas.coop/sitemap.txt
+https://copas.coop/CNAME
 https://copas.coop/contact.html
 https://copas.coop/metiers/formations/lutte-contre-les-discriminations.html
 https://copas.coop/metiers/formations/informations.html
@@ -18,7 +19,7 @@ https://copas.coop/terrains/service-public-petite-enfance.html
 https://copas.coop/terrains/economie-sociale-solidaire.html
 https://copas.coop/terrains/politique-educative.html
 https://copas.coop/terrains/demarches-participatives.html
-https://copas.coop/sitemap.xml
+https://copas.coop/
 https://copas.coop/404.html
 https://copas.coop/team/said-bechrouri.html
 https://copas.coop/team/dalila-bahmed.html
