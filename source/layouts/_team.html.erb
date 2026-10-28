@@ -7,9 +7,9 @@
     </div>
     <div class="cards">
       <div class="row">
-        <% data.teams.each do |team| %>
+        <% data.teams.each_with_index do |team, i| %>
         <a href="<%= team.link %>">
-          <div class="col-xs-12 col-sm-6 col-md-4 team-card">
+          <div class="col-xs-12 col-sm-6 col-md-4 <%= "col-md-offset-2" if i.even? %> team-card">
             <img src="<%= team.picture %>" alt="<%= team.first_name.capitalize %> <%= team.last_name.upcase %>" class="avatar">
             <h3><%= team.first_name.capitalize %> <%= team.last_name.upcase %></h3>
             <p><%= team.description.capitalize %></p>
