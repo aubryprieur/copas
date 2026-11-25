@@ -1,4 +1,4 @@
-https://copas.coop/sitemap.xml
+https://copas.coop/404.html
 https://copas.coop/mentions-legales.html
 https://copas.coop/sitemap.txt
 https://copas.coop/CNAME
@@ -6,6 +6,7 @@ https://copas.coop/contact.html
 https://copas.coop/metiers/formations/lutte-contre-les-discriminations.html
 https://copas.coop/metiers/formations/informations.html
 https://copas.coop/metiers/formations/reecriture-de-son-contrat-de-ville.html
+https://copas.coop/metiers/formations/evaluation-has.html
 https://copas.coop/metiers/developpement-numerique.html
 https://copas.coop/metiers/formation.html
 https://copas.coop/metiers/accompagnement.html
@@ -19,12 +20,13 @@ https://copas.coop/terrains/service-public-petite-enfance.html
 https://copas.coop/terrains/economie-sociale-solidaire.html
 https://copas.coop/terrains/politique-educative.html
 https://copas.coop/terrains/demarches-participatives.html
+https://copas.coop/sitemap.xml
 https://copas.coop/
-https://copas.coop/404.html
 https://copas.coop/team/said-bechrouri.html
 https://copas.coop/team/dalila-bahmed.html
 https://copas.coop/team/samuel-thyrion.html
 https://copas.coop/team/aubry-prieur.html
+https://copas.coop/documents/formations/COPAS_Plaquette_Formation_Evaluation_HAS.pdf
 https://copas.coop/merci.html
 https://copas.coop/about.html
 https://copas.coop/stylesheets/pages/mentions-legales

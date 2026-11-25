@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://copas.coop/sitemap.xml</loc>
+    <loc>https://copas.coop/404.html</loc>
   </url>
   <url>
     <loc>https://copas.coop/mentions-legales.html</loc>
@@ -23,6 +23,9 @@
   </url>
   <url>
     <loc>https://copas.coop/metiers/formations/reecriture-de-son-contrat-de-ville.html</loc>
+  </url>
+  <url>
+    <loc>https://copas.coop/metiers/formations/evaluation-has.html</loc>
   </url>
   <url>
     <loc>https://copas.coop/metiers/developpement-numerique.html</loc>
@@ -64,10 +67,10 @@
     <loc>https://copas.coop/terrains/demarches-participatives.html</loc>
   </url>
   <url>
-    <loc>https://copas.coop/</loc>
+    <loc>https://copas.coop/sitemap.xml</loc>
   </url>
   <url>
-    <loc>https://copas.coop/404.html</loc>
+    <loc>https://copas.coop/</loc>
   </url>
   <url>
     <loc>https://copas.coop/team/said-bechrouri.html</loc>
@@ -80,6 +83,9 @@
   </url>
   <url>
     <loc>https://copas.coop/team/aubry-prieur.html</loc>
+  </url>
+  <url>
+    <loc>https://copas.coop/documents/formations/COPAS_Plaquette_Formation_Evaluation_HAS.pdf</loc>
   </url>
   <url>
     <loc>https://copas.coop/merci.html</loc>
