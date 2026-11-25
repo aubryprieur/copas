@@ -1,3 +1,13 @@
+<% data.formations_intra.each do |formation| %>
+  <a href="<%= formation.link %>" class="link__formation">
+    <div class="formation__card">
+      <div class="clk"><%= formation.title %></div>
+      <div class="info-formation">
+        <p class="duration-formation"><i class="far fa-clock"></i> <%= formation.duration %></p>
+      </div>
+    </div>
+  </a>
+<% end %>
 <% data.intras.each do |intra| %>
   <div class="text__intra">
     <div class="intra__card">

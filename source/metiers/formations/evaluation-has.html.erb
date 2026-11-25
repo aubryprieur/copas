@@ -1,0 +1,143 @@
+---
+title: COPAS - Préparer l’évaluation de la qualité des ESSMS (HAS)
+---
+<% f = data.formations_intra.find { |x| x.slug == "evaluation-has" } %>
+<%= partial "layouts/navbar2" %>
+<div class="ground fi">
+  <div class="container">
+
+    <!-- En-tête -->
+    <header class="fi-hero">
+      <span class="fi-badge"><i class="fa-solid fa-building-user"></i> Formation en intra</span>
+      <h1><%= f.title %></h1>
+      <p class="fi-lead"><%= f.introduction %></p>
+      <ul class="fi-chips">
+        <li><i class="far fa-clock"></i> <%= f.duration %></li>
+        <li><i class="fa-solid fa-location-dot"></i> <%= f.location %></li>
+        <li><i class="fa-solid fa-euro-sign"></i> <%= f.funding %></li>
+      </ul>
+      <div class="fi-actions">
+        <a href="<%= f.leaflet %>" target="_blank" class="fi-btn fi-btn-primary"><i class="fa fa-download"></i> Télécharger la plaquette</a>
+        <a href="/contact.html" class="fi-btn fi-btn-ghost"><i class="fa-regular fa-envelope"></i> Nous contacter</a>
+      </div>
+    </header>
+
+    <div class="ground-content">
+      <h2>
+        Programme de formation
+      </h2>
+      <details>
+        <summary>
+          <div class="clk"><i class="fas fa-chevron-right"></i> Objectifs</div>
+        </summary>
+        <section>
+          <p><strong>Objectifs généraux</strong></p>
+          <ul>
+            <% f.general_goals.each do |g| %>
+              <li><%= g %></li>
+            <% end %>
+          </ul>
+          <p><strong>À l’issue de la formation, les participant·es seront en mesure de :</strong></p>
+          <ul>
+            <% f.goals.each do |g| %>
+              <li><%= g %></li>
+            <% end %>
+          </ul>
+        </section>
+      </details>
+      <details>
+        <summary>
+          <div class="clk"><i class="fas fa-chevron-right"></i> Déroulement</div>
+        </summary>
+        <section>
+          <% f.program.each do |day| %>
+            <p><strong><%= day.title %></strong><br><em>Public : <%= day.audience %></em></p>
+            <% day.parts.each do |part| %>
+              <p><%= part.name %></p>
+              <ul>
+                <% part.items.each do |item| %>
+                  <li><%= item %></li>
+                <% end %>
+              </ul>
+            <% end %>
+          <% end %>
+        </section>
+      </details>
+      <details>
+        <summary>
+          <div class="clk"><i class="fas fa-chevron-right"></i> Public cible</div>
+        </summary>
+        <section>
+          <%= f.targeted_people %>
+        </section>
+      </details>
+      <details>
+        <summary>
+          <div class="clk"><i class="fas fa-chevron-right"></i> Pré-requis</div>
+        </summary>
+        <section>
+          <%= f.prerequisites %>
+        </section>
+      </details>
+      <details>
+        <summary>
+          <div class="clk"><i class="fas fa-chevron-right"></i> Mode de validation des acquis</div>
+        </summary>
+        <section>
+          <ul>
+            <% f.validation.each do |v| %>
+              <li><%= v %></li>
+            <% end %>
+          </ul>
+        </section>
+      </details>
+      <details>
+        <summary>
+          <div class="clk"><i class="fas fa-chevron-right"></i> Moyens pédagogiques et techniques</div>
+        </summary>
+        <section>
+          <%= f.technology %>
+        </section>
+      </details>
+      <details>
+        <summary>
+          <div class="clk"><i class="fas fa-chevron-right"></i> Pour aller plus loin</div>
+        </summary>
+        <section>
+          <%= f.extensions %>
+        </section>
+      </details>
+      <details>
+        <summary>
+          <div class="clk"><i class="fas fa-chevron-right"></i> Mots clés</div>
+        </summary>
+        <section>
+          <%= f.key_words %>
+        </section>
+      </details>
+      <details>
+        <summary>
+          <div class="clk"><i class="fas fa-chevron-right"></i> Plaquette de formation</div>
+        </summary>
+        <section>
+          <a href="<%= f.leaflet %>" target="_blank" class="plaquette"><i class="fa fa-download"></i> Téléchargez la plaquette de formation</a>
+        </section>
+      </details>
+      <details>
+        <summary>
+          <div class="clk"><i class="fas fa-chevron-right"></i> Nous contacter</div>
+        </summary>
+        <section>
+          Pour organiser cette formation dans votre structure : <%= f.email %> / <%= f.phone %>
+        </section>
+      </details>
+    </div>
+
+  </div>
+</div>
+
+<script>
+$('.clk').click(function(){
+    $(this).find('i').toggleClass('fa-chevron-right fa-chevron-down')
+});
+</script>

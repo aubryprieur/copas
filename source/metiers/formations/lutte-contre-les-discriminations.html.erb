@@ -2,15 +2,25 @@
 title: COPAS - Lutte contre les discriminations
 ---
 <%= partial "layouts/navbar2" %>
-<div class="ground">
+<% f = data.formations[0] %>
+<div class="ground fi">
   <div class="container">
+    <header class="fi-hero">
+      <span class="fi-badge"><i class="fa-solid fa-people-group"></i> Formation en inter</span>
+      <h1><%= f.title %></h1>
+      <p class="fi-lead"><%= f.introduction %></p>
+      <ul class="fi-chips">
+        <li><i class="far fa-clock"></i> <%= f.duration %></li>
+        <li><i class="fa-solid fa-location-dot"></i> Lille ou Paris</li>
+        <li><i class="fa-solid fa-tag"></i> <%= f.price %></li>
+      </ul>
+      <div class="fi-actions">
+        <a href="<%= f.subscription %>" target="_blank" class="fi-btn fi-btn-primary"><i class="fa fa-download"></i> Bulletin d’inscription</a>
+        <a href="/contact.html" class="fi-btn fi-btn-ghost"><i class="fa-regular fa-envelope"></i> Nous contacter</a>
+      </div>
+    </header>
+
     <div class="ground-content">
-      <h1>
-        <%= data.formations[0].title %>
-      </h1>
-      <p>
-        <%= data.formations[0].introduction %>
-      </p>
       <h2>
         Programme de formation
       </h2>
